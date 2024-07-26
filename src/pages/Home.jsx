@@ -12,6 +12,8 @@ import image5 from "/images/Rectangle 6.png";
 import image6 from "/images/image3.png";
 import image7 from "/images/Rectangle 9.png";
 import image8 from "/images/Rectangle 10.png";
+import image9 from "/images/Ellipse 94.png";
+import image10 from "/images/images 1.png";
 
 function Home(){
     return (
@@ -288,14 +290,127 @@ function Home(){
           </div>
         </section>
         {/* people donation  */}
-        <section className="px-6 md:px-32 flex flex-row my-20 py-20 gap-8 items-center bg-[#EEEAFC]">
-        <div className="flex flex-row gap-10">
-        <div className="">
+        <section className="px-6 md:px-32 flex flex-row my-20 py-20 gap-8 items-center  bg-[#EEEAFC]">
+          <div className=" relative h-fit bg-primary-color ">
             <img src={image7} alt="" />
-            <img src={image8} alt="" className="relative  top-[-10rem] right-[-20rem]" />
-        </div>
-        </div>
+            <img
+              src={image8}
+              alt=""
+              className="absolute top-[50%] right-[-20%] "
+            />
+          </div>
+          <div className="w-[5rem]"></div>
+          <div className="flex flex-col gap-6 w-1/2">
+            <div className="flex flex-col">
+              <p className=" text-3xl md:text-5xl font-bold ">
+                Need Pure Water For Mozam bique People.
+              </p>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry ore
+              </p>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <div className="border border-primary-color py-2 px-8 h-fit">
+                {" "}
+                $20
+              </div>
+              <div className="border border-primary-color py-2 px-8 h-fit">
+                {" "}
+                $50
+              </div>
+              <div className="border border-primary-color py-2 px-8 h-fit">
+                {" "}
+                $200
+              </div>
+              <div className="border border-primary-color  py-2 px-8 h-fit">
+                {" "}
+                Custom
+              </div>
+            </div>
+            <div className="flex flex-col md:flex-row gap-6">
+              <button className="primary-button">
+                Donate Now
+                <i class="fa fa-angle-right"></i>
+              </button>
+              <button className="secondary-button ">
+                Join Event
+                <i class="fa fa-angle-right"></i>
+              </button>
+            </div>
+            <div className="flex flex-col">
+              <p className=" text-xl md:text-2xl font-medium ">Great Donners</p>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry Lorem.
+              </p>
+            </div>
+            <div className="flex flex-row gap-3">
+              <img src={image9} alt="" className=" h-16 w-16 " />
+              <img src={image9} alt="" className=" h-16 w-16 " />
+              <img src={image9} alt="" className=" h-16 w-16" />
+              <img src={image9} alt="" className=" h-16 w-16" />
+              <div className="w-16 h-16 bg-primary-color text-white text-2xl font-bold text-center flex items-center rounded-full">
+                +320
+              </div>
+            </div>
+          </div>
         </section>
+
+        {/* event cart  */}
+        <section className="px-6 md:px-32 flex flex-row my-20 py-20 gap-8 items-center ">
+          <div className="flex flex-col w-1/3 gap-6 ">
+            <p className=" text-3xl md:text-5xl font-bold ">
+              Multiple Event & Conference
+            </p>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry ore
+            </p>
+            <button className="primary-button">
+              Donate Now
+              <i class="fa fa-angle-right"></i>
+            </button>
+          </div>
+          <div>
+            <div className="flex flex-row gap-6 shadow-lg p-4">
+              <img src={image10} alt="" />
+              <div>
+                <p className="text-2xl font-medium">
+                  Use Hashtags To Support Online
+                </p>
+                <p>JANUARY 17, 2024 @ 12:00 AM - JANUARY 30, 2024 @ 11:59 PM</p>
+              </div>
+              <div className=" border border-r-gray-400 border-r-2"></div>
+              <div>
+                <p className="text-2xl font-medium">Event Location:</p>
+                <p>Mitchell, 57301 United States</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* statistics section  */}
+        <section className="px-6 md:px-32 flex flex-row my-20 py-20 gap-8 items-center">
+          <div className="flex flex-col w-1/3 gap-6 items-center">
+            <p className=" text-3xl md:text-5xl font-bold ">520k</p>
+            <p className="font-bold text-3xl">Poor People</p>
+          </div>
+          <div className="flex flex-col w-1/3 gap-6 items-center">
+            <p className=" text-3xl md:text-5xl font-bold ">842M</p>
+            <p className="font-bold text-3xl">Fund Rise</p>
+          </div>
+          <div className="flex flex-col w-1/3 gap-6 items-center">
+            <p className=" text-3xl md:text-5xl font-bold ">24k</p>
+            <p className="font-bold text-3xl">Active Member</p>
+          </div>
+        </section>
+
+        {/* review section  */}
+         <section className=" flex flex-row my-20 py-20 gap-8 items-center  bg-[#EEEAFC]">
+        <div>
+          0
+        </div>
+         </section>
       </div>
     );
 }
