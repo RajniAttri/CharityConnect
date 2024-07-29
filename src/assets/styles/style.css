@@ -21,3 +21,11 @@
   ); /* Blue overlay with 50% opacity */
   z-index: -1;
 }
+
+.help-card {
+  @apply flex flex-col gap-8 items-center py-10 px-8 border border-[#5A5A5A] rounded-3xl;
+}
+
+.about-section {
+  @apply px-6 md:px-32 flex flex-row my-20 py-20 gap-8 items-center  bg-[#EEEAFC];
+}
