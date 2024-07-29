@@ -2,34 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-   font-family: "Playfair Display", serif;
-   color: #2A2A2A;
+body {
+  font-family: "Playfair Display", serif;
+  color: #2a2a2a;
 }
 
-   .primary-button{
-      background: #3A40D8;
-      color: white;
-     
-      padding: 0.5rem 1rem;
-      display: flex;
-      flex-direction: row;
-      gap: 1rem;
-      border-radius: .4rem;
-     align-items: center;
-     width: fit-content;
+/* .primary-button {
+  background: #3a40d8;
+  color: white;
 
-   }
-   .secondary-button{
-      color: #3A40D8;
-    background-color: transparent;
-     border: solid #3A40D8;
-      padding: 0.5rem 1rem;
-      display: flex;
-      flex-direction: row;
-      gap: 1rem;
-      border-radius: .4rem;
-     align-items: center;
-     width: fit-content;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  border-radius: 0.4rem;
+  align-items: center;
+  width: fit-content;
+} */
 
-   }
+.primary-button {
+  @apply bg-primary-color text-white py-2 px-4 flex flex-row gap-4 rounded-[.4rem] items-center w-fit;
+}
+
+.secondary-button {
+  @apply bg-white text-primary-color py-2 px-4 flex flex-row gap-4 rounded-[.4rem] items-center w-fit border-solid border-primary-color border;
+}
+
+/* .secondary-button {
+  color: #3a40d8;
+  background-color: transparent;
+  border: solid #3a40d8;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  border-radius: 0.4rem;
+  align-items: center;
+  width: fit-content;
+} */
