@@ -1,19 +1,20 @@
 import React from "react";
-import Logo from '/images/logo.png'
-import heroImage from '/images/hero-image.png';
-import icon from "/images/icon.png";
-import icon2 from "/images/icon2.png";
-import icon3 from "/images/icon3.png";
-import image from "/images/Rectangle 2.png";
-import image2 from "/images/Rectangle 4.png";
-import image3 from "/images/Rectangle 3.png";
-import image4 from "/images/Rectangle 5.png";
-import image5 from "/images/Rectangle 6.png";
-import image6 from "/images/image3.png";
-import image7 from "/images/Rectangle 9.png";
-import image8 from "/images/Rectangle 10.png";
-import image9 from "/images/Ellipse 94.png";
-import image10 from "/images/images 1.png";
+import image9 from "../assets/images/Ellipse 94.png";
+import heroImage from "../assets/images/hero-image.png";
+import icon from "../assets/images/Icon.png";
+import icon2 from "../assets/images/Icon2.png";
+import icon3 from "../assets/images/Icon3.png";
+import image6 from "../assets/images/Image3.png";
+import image10 from "../assets/images/Images 1.png";
+import Logo from "../assets/images/logo.png";
+import image8 from "../assets/images/Rectangle 10.png";
+import image from "../assets/images/Rectangle 2.png";
+import image3 from "../assets/images/Rectangle 3.png";
+import image2 from "../assets/images/Rectangle 4.png";
+import image4 from "../assets/images/Rectangle 5.png";
+import image5 from "../assets/images/Rectangle 6.png";
+import image7 from "../assets/images/Rectangle 9.png";
+import "../assets/styles/style.css";
 
 function Home(){
     return (
