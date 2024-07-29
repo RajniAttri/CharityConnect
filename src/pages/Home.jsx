@@ -15,6 +15,7 @@ import image4 from "../assets/images/Rectangle 5.png";
 import image5 from "../assets/images/Rectangle 6.png";
 import image7 from "../assets/images/Rectangle 9.png";
 import "../assets/styles/style.css";
+import Button from "../components/Button";
 
 function Home() {
   return (
@@ -32,10 +33,15 @@ function Home() {
             <a href="#">Event</a>
             <a href="#">Contact Us</a>
           </div>
-          <button className="primary-button ">
+          <Button
+            type="primary-button"
+            text="Donate Now"
+            icon={<i class="fa fa-angle-right"></i>}
+          ></Button>
+          {/* <button className="primary-butto">
             Donate Now
             <i class="fa fa-angle-right"></i>
-          </button>
+          </button> */}
         </nav>
         <div className="h-lvh flex flex-row items-center justify-between ">
           <div className="flex flex-col gap-7 md:w-2/3 w-full ">
@@ -44,14 +50,24 @@ function Home() {
               <span className=" text-primary-color"> Change </span>The World.
             </p>
             <div className="flex gap-6">
-              <button className="primary-button ">
+              <Button
+                type="primary-button"
+                text="All causes"
+                icon={<i class="fa fa-angle-right"></i>}
+              ></Button>
+              <Button
+                type="secondary-button"
+                text="Donate Now"
+                icon={<i class="fa fa-angle-right"></i>}
+              ></Button>
+              {/* <button className="primary-button ">
                 All causes
                 <i class="fa fa-angle-right"></i>
               </button>
               <button className="secondary-button ">
                 Donate Now
                 <i class="fa fa-angle-right"></i>
-              </button>
+              </button> */}
             </div>
           </div>
 
@@ -76,7 +92,12 @@ function Home() {
                 volunteering with the UN.
               </p>
             </div>
-            <button className="secondary-button">Read More</button>
+            <Button
+              type="secondary-button"
+              text="Read More"
+              // icon={<i class="fa fa-angle-right"></i>}
+            ></Button>
+            {/* <button className="secondary-button">Read More</button> */}
           </div>
           {/* card 2 */}
           <div className="flex flex-col gap-8 items-center py-10 px-8 border  border-[#5A5A5A] rounded-3xl  ">
@@ -88,7 +109,12 @@ function Home() {
                 volunteering with the UN.
               </p>
             </div>
-            <button className="secondary-button">Read More</button>
+            <Button
+              type="secondary-button"
+              text="Read More"
+              // icon={<i class="fa fa-angle-right"></i>}
+            ></Button>
+            {/* <button className="secondary-button">Read More</button> */}
           </div>
           {/* card 3 */}
           <div className="flex flex-col gap-8 items-center py-10 px-8 border  border-[#5A5A5A]  rounded-3xl ">
@@ -100,7 +126,12 @@ function Home() {
                 volunteering with the UN.
               </p>
             </div>
-            <button className="secondary-button">Read More</button>
+            <Button
+              type="secondary-button"
+              text="Read More"
+              // icon={<i class="fa fa-angle-right"></i>}
+            ></Button>
+            {/* <button className="secondary-button">Read More</button> */}
           </div>
         </div>
       </section>
@@ -232,10 +263,15 @@ function Home() {
                   <i class="fa fa-user-alt"></i>
                   <p>Adam</p>
                 </div>
-                <button className="secondary-button ">
+                <Button
+                  type="secondary-button"
+                  text="All causes"
+                  icon={<i class="fa fa-angle-right"></i>}
+                ></Button>
+                {/* <button className="secondary-button ">
                   Donate Now
                   <i class="fa fa-angle-right"></i>
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
@@ -332,14 +368,24 @@ function Home() {
             </div>
           </div>
           <div className="flex flex-col md:flex-row gap-6">
-            <button className="primary-button">
+            <Button
+              type="secondary-button"
+              text="All causes"
+              icon={<i class="fa fa-angle-right"></i>}
+            ></Button>
+            <Button
+              type="secondary-button"
+              text="Join Event"
+              icon={<i class="fa fa-angle-right"></i>}
+            ></Button>
+            {/* <button className="primary-button">
               Donate Now
               <i class="fa fa-angle-right"></i>
-            </button>
-            <button className="secondary-button ">
+            </button> */}
+            {/* <button className="secondary-button ">
               Join Event
               <i class="fa fa-angle-right"></i>
-            </button>
+            </button> */}
           </div>
           <div className="flex flex-col">
             <p className=" text-xl md:text-2xl font-medium ">Great Donners</p>
