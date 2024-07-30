@@ -42,7 +42,7 @@ function PeopleDonationSection() {
         </div>
         <div className="flex flex-col md:flex-row gap-6">
           <Button
-            type="secondary-button"
+            type="primary-button"
             text="All causes"
             icon={<i class="fa fa-angle-right"></i>}
           ></Button>
