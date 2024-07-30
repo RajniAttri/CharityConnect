@@ -6,6 +6,7 @@ import image5 from "../../assets/images/Rectangle 15.png";
 import image6 from "../../assets/images/Rectangle 16.png";
 import image1 from "../../assets/images/Rectangle 2.png";
 import image2 from "../../assets/images/Rectangle 5.png";
+
 function Footer() {
   return (
     <footer className="px-6 md:px-32  mt-20 pt-20 gap-8 items-center text-white bg-[#414141] ">

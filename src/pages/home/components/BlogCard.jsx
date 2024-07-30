@@ -13,16 +13,17 @@ function BlogCard(props) {
       <div className=" relative w-full  ">
         <img src={image} alt="" className="w-full" />
         <div className="absolute top-[5%] left-[5%] ">
-          <div className="bg-primary-color text-white text-center w-fit py-4 px-6">
-            <p className=" text-3xl md:text-5xl font-bold text-center ">
-              {day}
-            </p>
-            <p>{month}</p>
+          <div className="relative border border-white left-10 top-10 ">
+            <div className="bg-primary-color text-white text-center w-fit py-4 px-6 relative  bottom-5 right-5">
+              <p className=" text-3xl md:text-5xl font-bold text-center ">
+                {day}
+              </p>
+              <p>{month}</p>
+            </div>
           </div>
-          <div className=" relative top-[-40] bg-transparent p-10 border border-white">
-            {" "}
+          {/* <div className=" relative top-[-40] bg-transparent p-10 border border-white">
             .
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="flex flex-row justify-between px-4 items-center">
