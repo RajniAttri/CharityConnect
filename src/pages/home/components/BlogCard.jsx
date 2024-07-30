@@ -14,7 +14,7 @@ function BlogCard(props) {
         <img src={image} alt="" className="w-full" />
         <div className="absolute top-[5%] left-[5%] ">
           <div className="relative border border-white left-10 top-10 ">
-            <div className="bg-primary-color text-white text-center w-fit py-4 px-6 relative  bottom-5 right-5">
+            <div className="bg-primary-color text-white text-center w-fit py-4 px-6 relative bottom-5 right-5">
               <p className=" text-3xl md:text-5xl font-bold text-center ">
                 {day}
               </p>
