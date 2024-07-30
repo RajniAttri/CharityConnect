@@ -11,7 +11,7 @@ function Header(props) {
 
       <nav className="flex justify-between items-center py-6">
         <img src={Logo} alt="logo" className="w-20 " />
-        <div className="flex justify-evenly gap-4 text-xl">
+        <div className="flex justify-evenly gap-4 text-xl text-gray-600">
           <a href="#">Home</a>
           <a href="#">About</a>
           <a href="#">Causes</a>
