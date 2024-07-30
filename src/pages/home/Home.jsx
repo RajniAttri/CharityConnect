@@ -10,6 +10,7 @@ import DonationSection from "./components/DonationSection";
 import HelpSection from "./components/HelpSection";
 import Hero from "./components/Hero";
 import PeopleDonationSection from "./components/PeopleDonationSection";
+import EventSection from "./components/EventSection";
 
 function Home() {
   const OuterCircle = () => {
@@ -38,37 +39,8 @@ function Home() {
       {/* people donation  */}
      <PeopleDonationSection> </PeopleDonationSection>
       {/* event cart  */}
-      <section className="px-6 md:px-32 flex flex-row my-20 py-20 gap-8 items-center ">
-        <div className="flex flex-col w-1/3 gap-6 ">
-          <p className=" text-3xl md:text-5xl font-bold ">
-            Multiple Event & Conference
-          </p>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry ore
-          </p>
-          <button className="primary-button">
-            Donate Now
-            <i class="fa fa-angle-right"></i>
-          </button>
-        </div>
-        <div>
-          <div className="flex flex-row gap-6 shadow-lg p-4">
-            <img src={image10} alt="" />
-            <div>
-              <p className="text-2xl font-medium">
-                Use Hashtags To Support Online
-              </p>
-              <p>JANUARY 17, 2024 @ 12:00 AM - JANUARY 30, 2024 @ 11:59 PM</p>
-            </div>
-            <div className=" border border-r-gray-400 border-r-2"></div>
-            <div>
-              <p className="text-2xl font-medium">Event Location:</p>
-              <p>Mitchell, 57301 United States</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <EventSection></EventSection>
+      
       {/* statistics section  */}
       <section className="px-6 md:px-32 flex flex-row my-20 py-20 gap-8 items-center">
         <div className="flex flex-col w-1/3 gap-6 items-center">
