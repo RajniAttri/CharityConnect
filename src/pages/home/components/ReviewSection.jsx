@@ -1,7 +1,6 @@
-import React from 'react'
+import React from "react";
 import image9 from "../../../assets/images/Ellipse 94.png";
-import ReviewCard from './ReviewCard';
-
+import ReviewCard from "./ReviewCard";
 
 function ReviewSection() {
   return (
@@ -14,11 +13,11 @@ function ReviewSection() {
         </div>
         <div className="flex flex-col gap-8 pr-20">
           <ReviewCard
-          image={image9}
+            image={image9}
             review_text=" It is long established fact that reader will distract by the readable
           content a page when looking atten layout. The point of using and that
           it has a normal distribution of letters"
-          role="Volunteer"
+            role="Volunteer"
           ></ReviewCard>
 
           <div className="flex flex-row p-4 items-start gap-4 text-2xl w-1/3  bg-primary-color text-white float-left ">
@@ -31,4 +30,4 @@ function ReviewSection() {
   );
 }
 
-export default ReviewSection
+export default ReviewSection;
