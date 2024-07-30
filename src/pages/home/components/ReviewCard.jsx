@@ -14,7 +14,7 @@ const {review_text,status,role ,image} = props;
       </div>
 
       <div className="flex flex-col gap-2">
-        <p className="font-medium text-2xl">Active Member</p>
+        <p className="font-medium text-2xl">{status}</p>
         <p className="">{role}</p>
       </div>
     </div>

@@ -13,6 +13,8 @@ import PeopleDonationSection from "./components/PeopleDonationSection";
 import EventSection from "./components/EventSection";
 import StatisticsSection from "./components/StatisticsSection";
 import ReviewSection from "./components/ReviewSection";
+import BlogSection from "./components/BlogSection";
+import Footer from "../../components/layout/Footer";
 
 function Home() {
   const OuterCircle = () => {
@@ -50,22 +52,8 @@ function Home() {
      <ReviewSection></ReviewSection>
 
       {/* section news and blog  */}
-      <section className="mx-6 md:mx-32 flex flex-col items-center my-20 gap-10">
-        <p className=" text-3xl md:text-5xl font-bold text-center ">
-          Latest News From <br /> Givest Blog
-        </p>
-        <div className="flex flex-col gap-8 lg:flex-row">
-          {/* card 2  */}
-
-          {/* card 3 */}
-        </div>
-
-        <div className="flex flex-row gap-1 ">
-          <div className="w-4 h-4 rounded-lg bg-[#9483F1]"></div>
-          <div className="w-16 h-4 rounded-lg bg-primary-color"></div>
-          <div className="w-4 h-4 rounded-lg bg-[#9483F1]"></div>
-        </div>
-      </section>
+  <BlogSection></BlogSection>
+  <Footer></Footer>
     </div>
   );
 }
