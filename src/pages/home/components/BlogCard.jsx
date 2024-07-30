@@ -1,13 +1,13 @@
-import React from 'react'
-import Button from '../../../components/Button';
+import React from "react";
+import Button from "../../../components/Button";
 
 function BlogCard(props) {
-     const {image,day,month,category,title,description,author}=props;
-        const maxDescriptionLength = 60; // max letters
-        const truncatedDescription =
-   description.length > maxDescriptionLength
-     ? `${description.substring(0, maxDescriptionLength)}...`
-     : description;
+  const { image, day, month, category, title, description, author } = props;
+  const maxDescriptionLength = 60; // max letters
+  const truncatedDescription =
+    description.length > maxDescriptionLength
+      ? `${description.substring(0, maxDescriptionLength)}...`
+      : description;
   return (
     <section className="flex flex-col gap-6 pb-6 w-full lg:1/3 shadow-md">
       <div className=" relative w-full  ">
@@ -49,4 +49,4 @@ function BlogCard(props) {
   );
 }
 
-export default BlogCard
+export default BlogCard;

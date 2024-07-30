@@ -1,20 +1,17 @@
 import React from "react";
-import image9 from "../../assets/images/Ellipse 94.png";
-import image10 from "../../assets/images/Images 1.png";
 
 import "../../assets/styles/style.css";
-import Button from "../../components/Button";
+import Footer from "../../components/layout/Footer";
 import Header from "../../components/layout/Header";
 import AboutSection from "./components/AboutSection";
+import BlogSection from "./components/BlogSection";
 import DonationSection from "./components/DonationSection";
+import EventSection from "./components/EventSection";
 import HelpSection from "./components/HelpSection";
 import Hero from "./components/Hero";
 import PeopleDonationSection from "./components/PeopleDonationSection";
-import EventSection from "./components/EventSection";
-import StatisticsSection from "./components/StatisticsSection";
 import ReviewSection from "./components/ReviewSection";
-import BlogSection from "./components/BlogSection";
-import Footer from "../../components/layout/Footer";
+import StatisticsSection from "./components/StatisticsSection";
 
 function Home() {
   const OuterCircle = () => {
@@ -23,7 +20,7 @@ function Home() {
     );
   };
   return (
-    <div className="">
+    <>
       {/*  */}
       <Header outerCircle={<OuterCircle></OuterCircle>}>
         {/* Hero section */}
@@ -49,12 +46,12 @@ function Home() {
       <StatisticsSection></StatisticsSection>
 
       {/* review section  */}
-     <ReviewSection></ReviewSection>
+      <ReviewSection></ReviewSection>
 
       {/* section news and blog  */}
-  <BlogSection></BlogSection>
-  <Footer></Footer>
-    </div>
+      <BlogSection></BlogSection>
+      <Footer></Footer>
+    </>
   );
 }
 export default Home;
