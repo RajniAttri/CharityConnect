@@ -20,14 +20,7 @@ function Hero() {
             text="Donate Now"
             icon={<i class="fa fa-angle-right"></i>}
           ></Button>
-          {/* <button className="primary-button ">
-        All causes
-        <i class="fa fa-angle-right"></i>
-      </button>
-      <button className="secondary-button ">
-        Donate Now
-        <i class="fa fa-angle-right"></i>
-      </button> */}
+       
         </div>
       </div>
 

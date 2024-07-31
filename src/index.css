@@ -21,11 +21,11 @@ body {
 } */
 
 .primary-button {
-  @apply bg-primary-color text-white py-2 px-4 flex flex-row gap-4 rounded-[.4rem] items-center w-fit;
+  @apply bg-primary-color text-white py-2 px-4 flex flex-row gap-4 rounded-[.4rem] items-center w-fit hover:bg-blue-950;
 }
 
 .secondary-button {
-  @apply bg-white text-primary-color py-2 px-4 flex flex-row gap-4 rounded-[.4rem] items-center w-fit border-solid border-primary-color border;
+  @apply bg-white text-primary-color py-2 px-4 flex flex-row gap-4 rounded-[.4rem] items-center w-fit border-solid border-primary-color border bg-transparent hover:bg-primary-color hover:text-white;
 }
 
 /* .secondary-button {
