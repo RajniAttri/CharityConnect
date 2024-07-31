@@ -11,7 +11,7 @@ import HelpSection from "./components/HelpSection";
 import Hero from "./components/Hero";
 import PeopleDonationSection from "./components/PeopleDonationSection";
 import EventSection from "./components/EventSection";
-import StatisticsSection from "./components/StatisticsSection";
+import StatisticsSection from "../../components/layout/StatisticsSection";
 import ReviewSection from "./components/ReviewSection";
 import BlogSection from "./components/BlogSection";
 import Footer from "../../components/layout/Footer";

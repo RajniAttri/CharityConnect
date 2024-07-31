@@ -13,7 +13,7 @@ function Header(props) {
 
         <nav className="flex justify-between items-center py-6">
           <img src={Logo} alt="logo" className="w-20 " />
-          <ul className="flex gap-4 text-sm">
+          <ul className=" gap-4 text-sm hidden lg:flex">
             <li>
               <Link to="/">Home</Link>
             </li>

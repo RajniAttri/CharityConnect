@@ -9,7 +9,7 @@ import image6 from "../../assets/images/Rectangle 16.png";
 function Footer() {
   return (
     <footer className="px-6 md:px-32  mt-20 pt-20 gap-8 items-center text-white bg-[#414141] ">
-      <div className="flex flex-col md:flex-row justify-between ">
+      <div className="flex flex-col md:flex-row gap-9 justify-between ">
         <div className="flex flex-col gap-6 w-1/3 md:w-full">
           <img src={Logo} alt="" className="w-20" />
           <p className=" text-sm ">
@@ -19,7 +19,7 @@ function Footer() {
         </div>
 
         <div className=" w-1/3 md:w-full">
-          <h3>Gallery</h3>
+          <h3 className='mb-6'>Gallery</h3>
           <div className=" flex flex-wrap">
             <img src={image1} alt="" className="w-full md:w-1/3" />
             <img src={image2} alt="" className="w-full md:w-1/3" />
