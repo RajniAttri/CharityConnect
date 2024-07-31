@@ -29,3 +29,14 @@
 .about-section {
   @apply px-6 md:px-32 flex flex-row my-20 py-20 gap-8 items-center  bg-[#EEEAFC];
 }
+
+.Hero-background{
+  width: 100%;
+  height: 70vh;
+  color: white !important;
+  background: linear-gradient(rgba(15, 23,43, 0.6),rgba(15, 23,43, 0.6)), url(../../assets/images/Rectangle\ 16.png);
+  background-position: cover;
+  background-size: center;
+  position: relative;
+
+}

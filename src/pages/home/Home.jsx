@@ -1,12 +1,11 @@
 import React from "react";
 import image9 from "../../assets/images/Ellipse 94.png";
-import image10 from "../../assets/images/Images 1.png";
+import image10 from "../../assets/images/images 1.png";
 import image8 from "../../assets/images/Rectangle 10.png";
 import image7 from "../../assets/images/Rectangle 9.png";
 import "../../assets/styles/style.css";
 import Button from "../../components/Button";
 import Header from "../../components/layout/Header";
-import AboutSection from "./components/AboutSection";
 import DonationSection from "./components/DonationSection";
 import HelpSection from "./components/HelpSection";
 import Hero from "./components/Hero";
@@ -29,7 +28,7 @@ function Home() {
       <HelpSection></HelpSection>
 
       {/* about us section */}
-      <AboutSection></AboutSection>
+      
 
       {/* donate section  */}
 
