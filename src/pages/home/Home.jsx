@@ -6,17 +6,16 @@ import Header from "../../components/layout/Header";
 import AboutSection from "./components/AboutSection";
 import BlogSection from "./components/BlogSection";
 import DonationSection from "./components/DonationSection";
-import EventSection from "./components/EventSection";
+
 import HelpSection from "./components/HelpSection";
 import Hero from "./components/Hero";
 import PeopleDonationSection from "./components/PeopleDonationSection";
-<<<<<<< HEAD
-=======
+
 import EventSection from "./components/EventSection";
 import StatisticsSection from "../../components/layout/StatisticsSection";
->>>>>>> 777b2ff6efa9ba24930fb1579fbbc526d1bf2dcf
+
 import ReviewSection from "./components/ReviewSection";
-import StatisticsSection from "./components/StatisticsSection";
+
 
 function Home() {
   const OuterCircle = () => {

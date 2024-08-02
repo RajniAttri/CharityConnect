@@ -52,7 +52,7 @@ function Header(props) {
                 pathname == link.to ? "text-primary-color font-bold" : ""
               }`}
             >
-              {text}
+              {link.text}
             </Link>
           ))}
         </div>
