@@ -4,7 +4,7 @@ import Button from "../../../components/Button";
 
 function DonationCard() {
   return (
-    <div className="flex flex-col gap-4 shadow-md">
+    <div className="flex flex-col gap-4 shadow-md  ">
       <img src={image4} alt="" />
       <div className="p-4 flex flex-col gap-5">
         <div className="flex flex-row justify-between ">

@@ -1,5 +1,7 @@
 import React from "react";
+
 import { Link, useLocation } from "react-router-dom";
+
 import Logo from "../../assets/images/logo.png";
 import Button from "../Button";
 
@@ -34,8 +36,10 @@ function Header(props) {
     },
   ];
   return (
-    <header className="relative mx-6 md:mx-32">
-      {outerCircle}
+    <>
+      <header className="relative mx-6 md:mx-32">
+        {outerCircle}
+
 
       <nav className="flex justify-between items-center py-6">
         <img src={Logo} alt="logo" className="w-20 " />
@@ -48,7 +52,7 @@ function Header(props) {
                 pathname == link.to ? "text-primary-color font-bold" : ""
               }`}
             >
-              {text}
+              {link.text}
             </Link>
           ))}
         </div>
@@ -60,6 +64,7 @@ function Header(props) {
       </nav>
       {children}
     </header>
+</>
   );
 }
 
