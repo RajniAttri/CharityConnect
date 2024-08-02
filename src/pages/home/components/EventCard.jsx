@@ -1,5 +1,5 @@
 import React from "react";
-import image10 from "../../../assets/images/Images 1.png";
+import image10 from "../../../assets/images/images 1.png";
 
 function EventCard(props) {
   const title = props.title;

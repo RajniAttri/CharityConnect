@@ -7,7 +7,7 @@ import image7 from "../../assets/images/Rectangle 9.png";
 import "../../assets/styles/style.css";
 import Footer from "../../components/layout/Footer";
 import Header from "../../components/layout/Header";
-import AboutSection from "./components/AboutSection";
+// import AboutSection from "./components/AboutSection";
 import BlogSection from "./components/BlogSection";
 import DonationSection from "./components/DonationSection";
 
@@ -40,7 +40,7 @@ function Home() {
 
       {/* about us section */}
       
-
+{/* <AboutSection></AboutSection> */}
       {/* donate section  */}
 
       <DonationSection></DonationSection>
