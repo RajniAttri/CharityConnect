@@ -1,52 +1,70 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
+
+import { Link, useLocation } from "react-router-dom";
+
 import Logo from "../../assets/images/logo.png";
 import Button from "../Button";
 
 function Header(props) {
   const children = props.children;
   const outerCircle = props.outerCircle;
+  const { pathname } = useLocation(); // we use this to get the current pathname from the address bar or url. Note how it's been destructured. e.g /about
+  const links = [
+    {
+      text: "Home",
+      to: "/",
+    },
+    {
+      text: "About",
+      to: "/about",
+    },
+    {
+      text: "Causes",
+      to: "/causes",
+    },
+    {
+      text: "Blog",
+      to: "/blog",
+    },
+    {
+      text: "Event",
+      to: "/event",
+    },
+    {
+      text: "Contact Us",
+      to: "/contact",
+    },
+  ];
   return (
     <>
       <header className="relative mx-6 md:mx-32">
         {outerCircle}
 
-        <nav className="flex justify-between items-center py-6">
-          <img src={Logo} alt="logo" className="w-20 " />
-          <ul className=" gap-4 text-sm hidden lg:flex">
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/causes">Causes</Link>
-            </li>
-            <li>
-              <Link to="/blog">Blog</Link>
-            </li>
-            <li>
-              <Link to="/event">Event</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact Us</Link>
-            </li>
-          </ul>
-          <Button
-            type="primary-button"
-            text="Donate Now"
-            icon={<i class="fa fa-angle-right"></i>}
-          ></Button>
-          {/* <button className="primary-butto">
-        Donate Now
-        <i class="fa fa-angle-right"></i>
-      </button> */}
-        </nav>
-        {children}
-      </header>
-      <Outlet />
-    </>
+
+      <nav className="flex justify-between items-center py-6">
+        <img src={Logo} alt="logo" className="w-20 " />
+        <div className="flex justify-evenly gap-4 text-xl text-gray-600">
+          {links.map((link) => (
+            <Link
+              to={link.to}
+              key={link.text}
+              className={`${
+                pathname == link.to ? "text-primary-color font-bold" : ""
+              }`}
+            >
+              {text}
+            </Link>
+          ))}
+        </div>
+        <Button
+          type="primary-button"
+          text="Donate Now"
+          icon={<i class="fa fa-angle-right"></i>}
+        ></Button>
+      </nav>
+      {children}
+    </header>
+</>
   );
 }
 
