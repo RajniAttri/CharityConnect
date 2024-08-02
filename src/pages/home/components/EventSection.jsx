@@ -1,8 +1,7 @@
-import React from 'react'
-import image10 from "../../../assets/images/Images 1.png";
+import React from "react";
 
 import Button from "../../../components/Button";
-import EventCard from './EventCard';
+import EventCard from "./EventCard";
 function EventSection() {
   return (
     <section className="px-6 md:px-32 flex flex-row my-20 py-20 gap-8 items-center ">

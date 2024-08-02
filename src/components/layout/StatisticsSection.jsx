@@ -1,5 +1,4 @@
-import React from 'react';
-
+import React from "react";
 
 function StatisticsSection() {
   return (
@@ -20,4 +19,4 @@ function StatisticsSection() {
   );
 }
 
-export default StatisticsSection
+export default StatisticsSection;

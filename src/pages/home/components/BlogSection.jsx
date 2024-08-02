@@ -1,9 +1,8 @@
-import React from 'react'
-import BlogCard from './BlogCard';
+import React from "react";
 import image12 from "../../../assets/images/Rectangle 12.png";
 import image13 from "../../../assets/images/Rectangle 13.png";
 import image14 from "../../../assets/images/Rectangle 14.png";
-
+import BlogCard from "./BlogCard";
 
 function BlogSection() {
   return (
@@ -50,4 +49,4 @@ function BlogSection() {
   );
 }
 
-export default BlogSection
+export default BlogSection;
