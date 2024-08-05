@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 /**
  * A custom button
@@ -9,12 +10,18 @@ function Button(props) {
   const icon = props.icon;
   const text = props.text;
   const type = props.type;
+  const href = props.href;
 
   /**
    * type = 'primary-button' | 'secondary-button'
    */
 
-  return (
+  return type == "primary-link" || type == "secondary-link" ? (
+    <Link className={type} to={href}>
+      {text}
+      {icon}
+    </Link>
+  ) : (
     <button className={type}>
       {text}
       {icon}
