@@ -8,6 +8,8 @@ import StatisticsSection from "../../components/layout/StatisticsSection";
 import ReviewSection from "../home/components/ReviewSection";
 import Footer from "../../components/layout/Footer";
 
+
+
 function Causes() {
   return (
     <div className="">
@@ -18,6 +20,7 @@ function Causes() {
       <StatisticsSection></StatisticsSection>
       <ReviewSection></ReviewSection>
       <Footer></Footer>
+    
     </div>
   );
 }
