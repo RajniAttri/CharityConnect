@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../../../components/Button";
 
 function DonationCard(props) {
-  const { title, description, image, author, items } = props;
+  const { title, description, image, author, items, id } = props;
 
   return (
     <div className="flex flex-col gap-4 shadow-md  ">
@@ -29,9 +29,10 @@ function DonationCard(props) {
             <p>{author}</p>
           </div>
           <Button
-            type="secondary-button"
+            type="secondary-link"
             text="Donate Now"
             icon={<i className="fa fa-angle-right"></i>}
+            href={`/causes/${id}`}
           ></Button>
         </div>
       </div>
