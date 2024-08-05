@@ -40,31 +40,30 @@ function Header(props) {
       <header className="relative mx-6 md:mx-32">
         {outerCircle}
 
-
-      <nav className="flex justify-between items-center py-6">
-        <img src={Logo} alt="logo" className="w-20 " />
-        <div className="flex justify-evenly gap-4 text-xl text-gray-600">
-          {links.map((link) => (
-            <Link
-              to={link.to}
-              key={link.text}
-              className={`${
-                pathname == link.to ? "text-primary-color font-bold" : ""
-              }`}
-            >
-              {link.text}
-            </Link>
-          ))}
-        </div>
-        <Button
-          type="primary-button"
-          text="Donate Now"
-          icon={<i class="fa fa-angle-right"></i>}
-        ></Button>
-      </nav>
-      {children}
-    </header>
-</>
+        <nav className="flex justify-between items-center py-6">
+          <img src={Logo} alt="logo" className="w-20 " />
+          <div className="flex justify-evenly gap-4 text-xl text-gray-600">
+            {links.map((link) => (
+              <Link
+                to={link.to}
+                key={link.text}
+                className={`${
+                  pathname == link.to ? "text-primary-color font-bold" : ""
+                }`}
+              >
+                {link.text}
+              </Link>
+            ))}
+          </div>
+          <Button
+            type="primary-button"
+            text="Donate Now"
+            icon={<i className="fa fa-angle-right"></i>}
+          ></Button>
+        </nav>
+        {children}
+      </header>
+    </>
   );
 }
 

@@ -44,12 +44,12 @@ function PeopleDonationSection() {
           <Button
             type="primary-button"
             text="All causes"
-            icon={<i class="fa fa-angle-right"></i>}
+            icon={<i className="fa fa-angle-right"></i>}
           ></Button>
           <Button
             type="secondary-button"
             text="Join Event"
-            icon={<i class="fa fa-angle-right"></i>}
+            icon={<i className="fa fa-angle-right"></i>}
           ></Button>
         </div>
         <div className="flex flex-col">

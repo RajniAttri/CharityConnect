@@ -28,7 +28,7 @@ function BlogCard(props) {
       </div>
       <div className="flex flex-row justify-between px-4 items-center">
         <p className="p-4 bg-[#D3CAF8] w-fit rounded-lg"> {category}</p>
-        <i class="fa fa-share-alt"></i>
+        <i className="fa fa-share-alt"></i>
       </div>
       <div className=" px-4">
         <p className="font-bold">{title}</p>
@@ -37,13 +37,13 @@ function BlogCard(props) {
 
       <div className="px-4 flex flex-row justify-between">
         <div className="flex flex-row items-center gap-4 ">
-          <i class="fas fa-user-alt"></i>
+          <i className="fas fa-user-alt"></i>
           <p>{author}</p>
         </div>
         <Button
           text="View Details"
           type="secondary-button"
-          icon={<i class="fa fa-angle-right"></i>}
+          icon={<i className="fa fa-angle-right"></i>}
         ></Button>
       </div>
     </section>
