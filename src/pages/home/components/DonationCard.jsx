@@ -27,13 +27,13 @@ function DonationCard(props) {
 
         <div className="flex flex-row items-center justify-between">
           <div className="flex flex-row gap-4 text-primary-color">
-            <i class="fa fa-user-alt"></i>
+            <i className="fa fa-user-alt"></i>
             <p>{author}</p>
           </div>
           <Button
             type="secondary-button"
             text="Donate Now"
-            icon={<i class="fa fa-angle-right"></i>}
+            icon={<i className="fa fa-angle-right"></i>}
           ></Button>
         </div>
       </div>
