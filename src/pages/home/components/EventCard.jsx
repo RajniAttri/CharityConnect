@@ -1,7 +1,6 @@
 import React from 'react'
 import image10 from "../../../assets/images/image1.png";
-import React from "react";
-import image10 from "../../../assets/images/images 1.png";
+
 
 function EventCard(props) {
   const title = props.title;

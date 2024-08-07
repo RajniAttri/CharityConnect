@@ -18,7 +18,19 @@ const Volunteer = () => {
         span = "Become Volunteer"
         />
 
-     <VolunteerForm/>
+     <VolunteerForm
+     text ="Join With Us As A Volunteer"
+     description ="Personal Info"
+     fN = "First Name"
+     LN = "Last Name"
+     Email ="Email Address"
+     number = "Phone Number"
+     age = "Age"
+     region ="Region"
+     message ="Message"
+     
+     
+     />
 
 
  <StatisticsSection/>
@@ -40,3 +52,8 @@ const Volunteer = () => {
 }
 
 export default Volunteer
+
+
+
+           
+             
