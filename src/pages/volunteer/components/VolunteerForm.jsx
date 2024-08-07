@@ -9,7 +9,7 @@ const VolunteerForm = () => {
         <h2>Personal Info</h2>
 
         <form>
-      <label for="fname"git>First Name</label>        
+      <label>First Name</label>        
 
     
 
