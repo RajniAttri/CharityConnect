@@ -8,6 +8,16 @@ const author = props.author;
 const text = props.text;
 
         return (
+
+
+          <section className=" flex flex-row my-20 py-20 gap-8 items-center  bg-[#EEEAFC]">
+          <div className="flex flex-row gap-10">
+            <div className="w-1/3 h-full p-20 py-28 text-center flex items-center section-volunteer text-white">
+              <p className="text-7xl md:text-4xl font-bold ">
+                What People Say About Us
+              </p>
+            </div>
+          
             <div className='flex flex-col gap-8 pr-20 px-20'>
 
                 <div>
@@ -31,6 +41,8 @@ const text = props.text;
               </div>
               </div>
             </div>
+            </div>
+            </section>
 
          
         )

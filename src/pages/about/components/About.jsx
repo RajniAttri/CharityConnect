@@ -17,43 +17,33 @@ import image14 from "../../../assets/images/Ellipse 94.png";
 import Hero1 from '../../../components/layout/Hero1';
 import AboutSection from '../components/AboutSection';
 import View from '../components/view';
+import Footer from '../../../components/layout/Footer';
+import Header from '../../../components/layout/Header';
 
 
 
 
 //import image4 from "/images/Rectangle 5.png";
 
-{/**import image7 from "../../../assets/images/Rectangle 9.png";
-import image8 from "../../../assets/images/Rectangle 10.png";
-import image9 from "../../../assets/images/Rectangle 11.png";
-import image11 from "../../../assets/images/baby.jpg"; */}
+//{/**import image7 from "../../../assets/images/Rectangle 9.png";
+//import image8 from "../../../assets/images/Rectangle 10.png";
+//import image9 from "../../../assets/images/Rectangle 11.png";
+//import image11 from "../../../assets/images/baby.jpg"; */}
 
 const page = () => {
   return (
    <div className=''>
-    <header className="mx-6 md:mx-32">
-          <nav className="flex justify-between items-center py-6">
-            <img src={Logo} alt="logo" className="w-20 " />
-            <div className="  flex gap-4 text-sm">
-              <a href="#">Home</a>
-              <a href="about">About</a>
-              <a href="#">Causes</a>
-              <a href="#">Blog</a>
-              <a href="#">Event</a>
-              <a href="#">Contact Us</a>
-            </div>
-            <button className="primary-button ">
-              Donate Now
-              <i className="fa fa-angle-right"></i>
-            </button>
-          </nav>
-          
-        </header>
+ {/**header */}
+ <Header/>
 
         {/* About us*/}
 
         {/**hero1 */}
-        <Hero1/>
+        <Hero1
+        title = "About Us"
+        text = "Home"
+        span = "About Us"
+        />
 
        <AboutSection/>
 
@@ -103,46 +93,10 @@ const page = () => {
         </div>
         </section>
 
-        {/* senior volunteer 
+      
+             
+       
 
-        <section className='bg-slate-200'>
-          <div  className='flex justify-between  pt-16 pb-16 '>
-
-            <div>
-               <img src={image9} alt='' className='w-96 h-96'/>
-            </div>
-
-            <div className='px-16'>
-              <img src={image14}  alt='' className=' w-28 h-28 rounded-full'/>
-              <p className='pr-28 pt-11'>Lorem ipsum dolor sit amet consectetur
-               adipisicing elit. Perspiciatis nemo<br/> natus sunt cumque voluptates 
-               velit, ab tempora in vitae! Commodi? ab tempora<br/> in vitae! Commodi?
-               velit, ab tempora in vitae! Commodi? ab tempora in vitae! Commodi?</p>
-
-                <div className='flex justify-between'>
-                  <div>
-                    <h1 className='font-semibold pt-7'>Adam Samson</h1>
-                    <p className='pt-2'>Senior Volunteer</p>
-                  </div>
-
-                  <div>
-                    <button className=' pt-7'>
-                    <i className="fa fa-angle-right"></i>
-                    </button>
-                  </div>
-                </div>
-            </div>
-
-          </div>
-        </section>*/}
-
-<section className=" flex flex-row my-20 py-20 gap-8 items-center  bg-[#EEEAFC]">
-        <div className="flex flex-row gap-10">
-          <div className="w-1/3 h-full p-20 py-28 text-center flex items-center section-volunteer text-white">
-            <p className="text-7xl md:text-4xl font-bold ">
-              What People Say About Us
-            </p>
-          </div>
           <View
 
           author ="Adam Samson"
@@ -153,8 +107,12 @@ const page = () => {
                velit, ab tempora in vitae! Commodi? ab temporain vitae! Commodi?
                velit, ab tempora in vitae! Commodi? ab tempora in vitae! Commodi?"
           />
-        </div>
-      </section>
+         
+      
+
+
+      {/**footer */}
+      <Footer/>
 
 
 

@@ -6,6 +6,13 @@ import "./App.css";
 import Home from "./pages/home/Home";
 import About from "./pages/about/components/About"
 import Causes from "./pages/causes/Causes"
+import Contact from "./pages/contact/components/Contact";
+import Career from "./pages/career/components/Career";
+
+import Volunteer from "./pages/volunteer/components/Volunteer";
+
+
+
 
 function App() {
   return (
@@ -15,6 +22,12 @@ function App() {
         <Route path="/about" element={<About />} />
         
         <Route path="/causes" element={<Causes />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/career" element={<Career />} />
+        <Route path="/volunteer" element={<Volunteer />} />
+
+        
+        
       </Routes>
     </BrowserRouter>
   );

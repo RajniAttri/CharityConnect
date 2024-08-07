@@ -1,5 +1,4 @@
-import React from "react";
-
+import React from 'react'
 import Button from "../../../components/Button";
 import EventCard from "./EventCard";
 function EventSection() {

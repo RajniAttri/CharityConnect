@@ -32,11 +32,11 @@
 
 .Hero-background{
   width: 100%;
-  height: 70vh;
+  height: 50vh;
   color: white !important;
-  background: linear-gradient(rgba(15, 23,43, 0.6),rgba(15, 23,43, 0.6)), url(../../assets/images/Rectangle\ 16.png);
-  background-position: cover;
-  background-size: center;
+  background: linear-gradient(rgba(15, 23, 43, 0.6), rgba(15, 23, 43, 0.6)), url(../../assets/images/Rectangle16.png);
+  background-position: center;
+  background-size: cover;
   position: relative;
-
+  
 }

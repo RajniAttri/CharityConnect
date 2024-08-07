@@ -3,7 +3,7 @@ import Logo from "../../assets/images/logo.png";
 import image3 from "../../assets/images/Rectangle 13.png";
 import image4 from "../../assets/images/Rectangle 14.png";
 import image5 from "../../assets/images/Rectangle 15.png";
-import image6 from "../../assets/images/Rectangle 16.png";
+import image6 from "../../assets/images/Rectangle16.png";
 import image1 from "../../assets/images/Rectangle 2.png";
 import image2 from "../../assets/images/Rectangle 5.png";
 
@@ -19,15 +19,22 @@ function Footer() {
           </p>
         </div>
 
-        <div className="flex flex-col gap-4 w-1/3 md:w-full">
-          <h3>Gallery</h3>
-          <div className=" flex flex-wrap gap-2">
-            <img src={image1} alt="" className="w-[8rem] " />
-            <img src={image2} alt="" className="w-[8rem] " />
-            <img src={image3} alt="" className="w-[8rem]" />
-            <img src={image4} alt="" className="w-[8rem] " />
-            <img src={image5} alt="" className="w-[8rem] " />
-            <img src={image6} alt="" className="w-[8rem] " />
+        <div className=" w-1/3 md:w-full">
+          <h3 className='mb-6'>Gallery</h3>
+          <div className="flex flex-col justify-between">
+           
+            <div className=' flex '>
+            <img src={image1} alt="" className="w-20 h-20 " />
+            <img src={image2} alt="" className="w-20  h-20 mx-3" />
+            <img src={image3} alt="" className="w-20 h-20  mx-1" />
+            </div>
+
+              <div className=' flex pt-3'>
+              <img src={image4} alt="" className="w-20 h-20" />
+            <img src={image5} alt="" className="w-20 h-20 mx-3" />
+            <img src={image6} alt="" className="w-20 h-20  mx-1" />
+              </div>
+
           </div>
         </div>
 
