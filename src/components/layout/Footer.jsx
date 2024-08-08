@@ -52,7 +52,7 @@ function Footer() {
                 <a href="leadership"> Leadership</a>
               </li>
               <li>
-                <a href="#"> FAQ's</a>
+                <a href="faqs"> FAQ's</a>
               </li>
               <li>
                 <a href="#"> Appointments</a>
