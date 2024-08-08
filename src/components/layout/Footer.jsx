@@ -43,13 +43,13 @@ function Footer() {
           <div className="flex flex-row gap-6  text-sm ">
             <ul className=" list-none flex flex-col gap-3 items-start ">
               <li>
-                <a href="#"> About Us</a>
+                <a href="about"> About Us</a>
               </li>
               <li>
-                <a href="#"> Career</a>
+                <a href="career">Career</a>
               </li>
               <li>
-                <a href="#"> Leadership</a>
+                <a href="leadership"> Leadership</a>
               </li>
               <li>
                 <a href="#"> FAQ's</a>
@@ -64,7 +64,7 @@ function Footer() {
 
             <ul className="list-none flex flex-col gap-3 items-start ">
               <li>
-                <a href="#"> Become Volunteer</a>
+                <a href="volunteer"> Become Volunteer</a>
               </li>
               <li>
                 <a href="#"> Donation History</a>

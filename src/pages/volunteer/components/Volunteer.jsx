@@ -20,7 +20,7 @@ const Volunteer = () => {
 
      <VolunteerForm
      text ="Join With Us As A Volunteer"
-     description ="Personal Info"
+     info ="Personal Info"
      fN = "First Name"
      LN = "Last Name"
      Email ="Email Address"

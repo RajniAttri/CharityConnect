@@ -9,6 +9,9 @@ import Causes from "./pages/causes/Causes"
 import Contact from "./pages/contact/components/Contact";
 import Career from "./pages/career/components/Career";
 import Volunteer from "./pages/volunteer/components/Volunteer";
+import ApplyCareer from "./pages/applycareer/components/ApplyCareer";
+import Leadership from "./pages/leadership/components/Leadership";
+import Faqs from "./pages/faqs/components/Faqs";
 
 
 
@@ -24,6 +27,10 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/career" element={<Career />} />
         <Route path="/volunteer" element={<Volunteer />} />
+        <Route path="/applycareer" element={<ApplyCareer />} />
+        <Route path="/leadership" element={<Leadership />} />
+        <Route path="/faqs" element={<Faqs />} />
+
 
         
         

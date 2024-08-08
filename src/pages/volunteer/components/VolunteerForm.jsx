@@ -10,12 +10,13 @@ function VolunteerForm (props){
  const age = props.age
  const region = props.region
  const message = props.message
+ 
 
 
   return (
 
     
-     <div className="bg-primary-color mt-20 mx-60 w-[900px] h-[700px] text-slate-200">
+     <div className="bg-primary-color mt-20 mx-[420px] w-[900px] h-[700px] text-slate-200">
       <h1 className="font-bold text-3xl pt-6 mx-14 ">{text}</h1>
       <h2 className="font-semibold text-xl mt-3 mb-3     mx-14">{info}</h2>
 
