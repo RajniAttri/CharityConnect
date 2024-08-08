@@ -2,30 +2,30 @@ import React from 'react'
 import Header from '../../../components/layout/Header'
 import Footer from '../../../components/layout/Footer'
 import Hero1 from '../../../components/layout/Hero1'
-import LeadershipSection from './LeadershipSection'
 import Pagination from '../../../components/Pagination'
+import DonnersSection from './DonnersSection'
 
-
-const Leadership = () => {
+const Donners = () => {
   return (
     <div>
 
         <Header/>
 
         <Hero1
-          title = "LeaderShip"
-          text = "Home"
-          span = "LeaderShip"
+        title="Donners"
+        text = "Home"
+        span ="Donners"
         
         />
 
-        <LeadershipSection/>
-        <Pagination/>
+        <DonnersSection/>
 
+
+        <Pagination/>
         <Footer/>
       
     </div>
   )
 }
 
-export default Leadership
+export default Donners

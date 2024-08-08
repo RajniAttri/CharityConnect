@@ -55,10 +55,10 @@ function Footer() {
                 <a href="faqs"> FAQ's</a>
               </li>
               <li>
-                <a href="#"> Appointments</a>
+                <a href="appointment"> Appointments</a>
               </li>
               <li>
-                <a href="#"> Donners</a>
+                <a href="donners"> Donners</a>
               </li>
             </ul>
 
@@ -67,16 +67,16 @@ function Footer() {
                 <a href="volunteer"> Become Volunteer</a>
               </li>
               <li>
-                <a href="#"> Donation History</a>
+                <a href="donationhistory"> Donation History</a>
               </li>
               <li>
-                <a href="#"> Donation Failed</a>
+                <a href="donationfailed"> Donation Failed</a>
               </li>
               <li>
-                <a href="#"> 404</a>
+                <a href="404"> 404</a>
               </li>
               <li>
-                <a href="#"> Coming Soon</a>
+                <a href="comingsoon"> Coming Soon</a>
               </li>
               <li>
                 <a href="#"> Medical Facilities </a>
