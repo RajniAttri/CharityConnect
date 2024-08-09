@@ -83,7 +83,7 @@ function DonateForm() {
             </div>
          
           
-          <button className='  text-white py-2 px-4 flex flex-row gap-4 rounded-[.4rem] items-center w-fit border-solid border-white border bg-transparent hover:bg-white hover:text-primary-color;'>
+          <button className='  text-white py-2 px-4 flex flex-row gap-4 rounded-[.4rem] items-center w-fit border-solid border-white border bg-transparent hover:bg-white hover:text-primary-color'>
             <p>Donate Now</p>
             <i className="fa fa-angle-right"></i>
           </button>
