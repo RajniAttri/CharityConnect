@@ -6,6 +6,7 @@ import "./App.css";
 import CauseDetails from "./pages/causes/CauseDetails";
 import Causes from "./pages/causes/Causes";
 import Home from "./pages/home/Home";
+import DonatePage from "./pages/causes/DonatePage";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/causes" element={<Causes />} />
         <Route path="/causes/:id" element={<CauseDetails />} />
+        <Route path="/donatePage" element={<DonatePage />} />
+
       </Routes>
     </BrowserRouter>
   );

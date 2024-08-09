@@ -104,7 +104,7 @@ const cause = donations.find(donation => donation.id == id);
             type="primary-link"
             text="Donate Now"
             icon={<i className="fa fa-angle-right"></i>}
-            href={`/donateForm`}
+            href={`/donatePage`}
           ></Button>
         </div>
       </div>
@@ -136,7 +136,7 @@ const cause = donations.find(donation => donation.id == id);
             type="primary-link"
             text="Donate Now"
             icon={<i className="fa fa-angle-right"></i>}
-            href={`/donateForm`}
+            href={`/donatePage`}
           ></Button>
   </div>
   </section>
