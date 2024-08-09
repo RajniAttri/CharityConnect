@@ -14,7 +14,7 @@ function Causes() {
   return (
     <div className="">
       <Header outerCircle=""></Header>
-      <GeneralHero title="Causes" image={image}></GeneralHero>
+      <GeneralHero title="Causes" subTitle="Causes List" image={image}></GeneralHero>
       <CausesSection ></CausesSection>
       <Pagination></Pagination>
       <StatisticsSection></StatisticsSection>
