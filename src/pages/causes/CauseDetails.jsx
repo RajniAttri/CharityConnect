@@ -112,7 +112,7 @@ function CauseDetails() {
                   type="primary-link"
                   text="Donate Now"
                   icon={<i className="fa fa-angle-right"></i>}
-                  href={`/donatePage`}
+                  href={`/donate`}
                   style={{ width: "100%" }}
                 ></Button>
               </div>
