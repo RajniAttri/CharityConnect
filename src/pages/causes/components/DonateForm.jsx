@@ -6,7 +6,10 @@ function DonateForm() {
     <div className=" mx-6 md:mx-32   my-20 flex flex-col gap-8  bg-primary-color text-white p-6 rounded-md">
       <p className=" text-2xl md:text-3xl font-bold ">Donate Now</p>
 
-      <form className="flex flex-col gap-8">
+      <form
+        className="flex flex-col gap-8"
+        onSubmit={(e) => e.preventDefault()}
+      >
         <div className="flex flex-row gap-8">
           {amount.map((item, index) => (
             <div className="border border-white py-2 px-8 h-fit"> {item}</div>
