@@ -2,7 +2,7 @@ import React from 'react'
 import { Outlet, Link } from "react-router-dom";
 
 function GeneralHero(props) {
-    const {image,title}=props;
+    const {image,subTitle,title}=props;
     const backgroundImageStyle = {
       backgroundImage: `linear-gradient(rgba(15, 23, 43, 0.6), rgba(15, 23, 43, 0.6)), url(${image})`,
       backgroundSize: "cover",
@@ -29,6 +29,8 @@ function GeneralHero(props) {
             </p>
             <i className="fa fa-angle-right pr-2"></i>
             <p>{title}</p>
+            <i className="fa fa-angle-right pr-2"></i>
+            <p>{subTitle}</p>
           </div>
         </div>
       </div>

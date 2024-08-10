@@ -41,7 +41,7 @@ function AboutSection() {
         <Button
           type="secondary-button"
           text="Donate Now"
-          icon={<i class="fa fa-angle-right"></i>}
+          icon={<i className="fa fa-angle-right"></i>}
         ></Button>
       </div>
     </section>

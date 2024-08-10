@@ -3,8 +3,10 @@
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
+import CauseDetails from "./pages/causes/CauseDetails";
+import Causes from "./pages/causes/Causes";
+import DonatePage from "./pages/causes/DonatePage";
 import Home from "./pages/home/Home";
-import Causes from "./pages/causes/Causes"
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/causes" element={<Causes />} />
+        <Route path="/causes/:id" element={<CauseDetails />} />
+        <Route path="/donate" element={<DonatePage />} />
       </Routes>
     </BrowserRouter>
   );
