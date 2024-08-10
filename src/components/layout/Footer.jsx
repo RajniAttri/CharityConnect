@@ -91,10 +91,10 @@ function Footer() {
           <span className="text-primary-color">Charityshay</span>
         </p>
         <div className="flex flex-row gap-5">
-          <i class="fa fa-facebook-f"></i>
-          <i class="fa fa-instagram"></i>
-          <i class="fa fa-twitter"></i>
-          <i class="fa fa-linkedin"></i>
+          <i className="fa fa-facebook-f"></i>
+          <i className="fa fa-instagram"></i>
+          <i className="fa fa-twitter"></i>
+          <i className="fa fa-linkedin"></i>
         </div>
       </div>
     </footer>

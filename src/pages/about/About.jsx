@@ -14,11 +14,11 @@ import image10 from "../../../assets/images/man.jpg";
 import image12 from "../../../assets/images/Rayon.jpg";
 import image13 from "../../../assets/images/muslim.jpg";
 import image14 from "../../../assets/images/Ellipse 94.png";
-import Hero1 from '../../../components/layout/Hero1';
-import AboutSection from '../components/AboutSection';
-import View from '../components/view';
-import Footer from '../../../components/layout/Footer';
-import Header from '../../../components/layout/Header';
+import Hero1 from '../../components/layout/Hero1';
+import AboutSection from './components/AboutSection';
+import View from './components/view';
+import Footer from '../../components/layout/Footer';
+import Header from '../../components/layout/Header';
 
 
 

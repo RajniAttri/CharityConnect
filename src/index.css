@@ -20,11 +20,13 @@ body {
   width: fit-content;
 } */
 
-.primary-button {
+.primary-button,
+.primary-link {
   @apply bg-primary-color text-white py-2 px-4 flex flex-row gap-4 rounded-[.4rem] items-center w-fit hover:bg-blue-950;
 }
 
-.secondary-button {
+.secondary-button,
+.secondary-link {
   @apply bg-white text-primary-color py-2 px-4 flex flex-row gap-4 rounded-[.4rem] items-center w-fit border-solid border-primary-color border bg-transparent hover:bg-primary-color hover:text-white;
 }
 
