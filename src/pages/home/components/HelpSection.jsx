@@ -34,6 +34,7 @@ function HelpSection() {
             icon={section.icon}
             title={section.title}
             description={section.description}
+            key={section.title}
           ></HelpCard>
         ))}
       </div>

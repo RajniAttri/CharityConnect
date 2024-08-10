@@ -5,10 +5,8 @@ import ReviewCard from "./ReviewCard";
 function ReviewSection() {
   return (
     <section className=" flex flex-row my-20 py-20 gap-8 items-center  bg-[#EEEAFC]">
-
       <div className="flex flex-col md:flex-row gap-10">
         <div className="w-1/3 h-full p-20 py-28 text-center flex items-center section-volunteer text-white">
-
           <p className="text-7xl md:text-4xl font-bold ">
             What People Say About Us
           </p>
@@ -32,10 +30,10 @@ function ReviewSection() {
             </div>
             <div className="flex flex-row p-4 items-start gap-4 text-2xl w-1/3  bg-primary-color text-white ">
               <div className="border w-10 h-10 rounded-full text-center cursor-pointer">
-                <i class="fa fa-arrow-left"></i>
+                <i className="fa fa-arrow-left"></i>
               </div>
               <div className="border w-10 h-10 rounded-full text-center cursor-pointer">
-                <i class="fa fa-arrow-right"></i>
+                <i className="fa fa-arrow-right"></i>
               </div>
             </div>
           </div>
