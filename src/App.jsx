@@ -13,6 +13,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+
         <Route path="/causes" element={<Causes />} />
         <Route path="/causes/:id" element={<CauseDetails />} />
         <Route path="/donate" element={<DonatePage />} />
