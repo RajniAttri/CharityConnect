@@ -8,15 +8,10 @@ import DonateForm from "./components/DonateForm";
 function DonatePage() {
   return (
     <>
-      <Header outerCircle=""></Header>
-
-      <GeneralHero
-        title="Causes"
-        subTitle="Donate Form"
-        image={image}
-      ></GeneralHero>
-      <DonateForm></DonateForm>
-      <Footer></Footer>
+      <Header outerCircle="" />
+      <GeneralHero title="Causes" subTitle="Donate Form" image={image} />
+      <DonateForm />
+      <Footer />
     </>
   );
 }
