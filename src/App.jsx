@@ -9,6 +9,7 @@ import Causes from "./pages/causes/Causes";
 import DonatePage from "./pages/causes/DonatePage";
 import Contact from "./pages/contact/Contact";
 import Home from "./pages/home/Home";
+import Leadership from "./pages/leadership/Leadership";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-
+        <Route path="/leadership" element={<Leadership />} />
         <Route path="/causes" element={<Causes />} />
         <Route path="/causes/:id" element={<CauseDetails />} />
         <Route path="/donate" element={<DonatePage />} />
