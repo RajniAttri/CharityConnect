@@ -2,7 +2,6 @@
 // We shall switch to createBrowserRouter soon enough.
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import "./App.css";
 import About from "./pages/about/About";
 import Career from "./pages/career/Career";
 import CauseDetails from "./pages/causes/CauseDetails";
