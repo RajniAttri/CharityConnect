@@ -2,18 +2,15 @@ import React from 'react'
 import Header from '../../../components/layout/Header'
 import Hero1 from '../../../components/layout/Hero1'
 import Footer from '../../../components/layout/Footer'
-
 const Section404 = () => {
   return (
     <div>
-
         <Header/>
         <Hero1
         title ="404"
         text="Home"
         span ="404"
-    
-        />
+       />
 
 <div className="bg-primary-color mt-20 mx-[450px] w-[900px] h-[500px] text-slate-200 text-center">
 <h1 className="font-bold text-5xl pt-20 mx-14 ">404</h1>
@@ -26,15 +23,9 @@ const Section404 = () => {
           <i className="fa fa-angle-right pr-2  px-2  pt-1"></i>
         </a>
 </div>
-
-
-
-
         <Footer/>
-      
     </div>
   )
 }
 
-export default Section404
-
+export default Section404;
