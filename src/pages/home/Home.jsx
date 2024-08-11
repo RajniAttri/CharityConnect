@@ -1,8 +1,6 @@
 import React from "react";
 // import image9 from "../../assets/images/Ellipse 94.png";
 // import image10 from "../../assets/images/images 1.png";
-import image8 from "../../assets/images/Rectangle 10.png";
-import image7 from "../../assets/images/Rectangle 9.png";
 
 import "../../assets/styles/style.css";
 import Footer from "../../components/layout/Footer";
@@ -15,11 +13,10 @@ import HelpSection from "./components/HelpSection";
 import Hero from "./components/Hero";
 import PeopleDonationSection from "./components/PeopleDonationSection";
 
-import EventSection from "./components/EventSection";
 import StatisticsSection from "../../components/layout/StatisticsSection";
+import EventSection from "./components/EventSection";
 
 import ReviewSection from "./components/ReviewSection";
-
 
 function Home() {
   const OuterCircle = () => {
@@ -39,8 +36,8 @@ function Home() {
       <HelpSection></HelpSection>
 
       {/* about us section */}
-      
-{/* <AboutSection></AboutSection> */}
+
+      {/* <AboutSection></AboutSection> */}
       {/* donate section  */}
 
       <DonationSection></DonationSection>

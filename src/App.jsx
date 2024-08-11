@@ -3,6 +3,7 @@
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
+import About from "./pages/about/About";
 import CauseDetails from "./pages/causes/CauseDetails";
 import Causes from "./pages/causes/Causes";
 import DonatePage from "./pages/causes/DonatePage";
