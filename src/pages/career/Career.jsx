@@ -10,12 +10,7 @@ const career = () => {
     <div>
       <Header />
 
-      {/**  <Hero1/>*/}
-
       <Hero1 title="Career" text="Home" span="Career" />
-
-      {/**career */}
-
       <section>
         <div>
           <CareerHeader />
