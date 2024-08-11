@@ -3,7 +3,7 @@ import React from "react";
 import "../../assets/styles/style.css";
 import Footer from "../../components/layout/Footer";
 import Header from "../../components/layout/Header";
-import AboutSection from "./components/AboutSection";
+// import AboutSection from "./components/AboutSection";
 import BlogSection from "./components/BlogSection";
 import DonationSection from "./components/DonationSection";
 
@@ -11,11 +11,10 @@ import HelpSection from "./components/HelpSection";
 import Hero from "./components/Hero";
 import PeopleDonationSection from "./components/PeopleDonationSection";
 
-import EventSection from "./components/EventSection";
 import StatisticsSection from "../../components/layout/StatisticsSection";
+import EventSection from "./components/EventSection";
 
 import ReviewSection from "./components/ReviewSection";
-
 
 function Home() {
   const OuterCircle = () => {
@@ -35,8 +34,8 @@ function Home() {
       <HelpSection></HelpSection>
 
       {/* about us section */}
-      <AboutSection></AboutSection>
 
+      {/* <AboutSection></AboutSection> */}
       {/* donate section  */}
 
       <DonationSection></DonationSection>

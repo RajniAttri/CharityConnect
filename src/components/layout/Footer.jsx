@@ -3,7 +3,7 @@ import Logo from "../../assets/images/logo.png";
 import image3 from "../../assets/images/Rectangle 13.png";
 import image4 from "../../assets/images/Rectangle 14.png";
 import image5 from "../../assets/images/Rectangle 15.png";
-import image6 from "../../assets/images/Rectangle 16.png";
+import image6 from "../../assets/images/Rectangle16.png";
 import image1 from "../../assets/images/Rectangle 2.png";
 import image2 from "../../assets/images/Rectangle 5.png";
 
@@ -19,15 +19,22 @@ function Footer() {
           </p>
         </div>
 
-        <div className="flex flex-col gap-4 w-1/3 md:w-full">
-          <h3>Gallery</h3>
-          <div className=" flex flex-wrap gap-2">
-            <img src={image1} alt="" className="w-[8rem] " />
-            <img src={image2} alt="" className="w-[8rem] " />
-            <img src={image3} alt="" className="w-[8rem]" />
-            <img src={image4} alt="" className="w-[8rem] " />
-            <img src={image5} alt="" className="w-[8rem] " />
-            <img src={image6} alt="" className="w-[8rem] " />
+        <div className=" w-1/3 md:w-full">
+          <h3 className='mb-6'>Gallery</h3>
+          <div className="flex flex-col justify-between">
+           
+            <div className=' flex '>
+            <img src={image1} alt="" className="w-20 h-20 " />
+            <img src={image2} alt="" className="w-20  h-20 mx-3" />
+            <img src={image3} alt="" className="w-20 h-20  mx-1" />
+            </div>
+
+              <div className=' flex pt-3'>
+              <img src={image4} alt="" className="w-20 h-20" />
+            <img src={image5} alt="" className="w-20 h-20 mx-3" />
+            <img src={image6} alt="" className="w-20 h-20  mx-1" />
+              </div>
+
           </div>
         </div>
 
@@ -36,40 +43,40 @@ function Footer() {
           <div className="flex flex-row gap-6  text-sm ">
             <ul className=" list-none flex flex-col gap-3 items-start ">
               <li>
-                <a href="#"> About Us</a>
+                <a href="about"> About Us</a>
               </li>
               <li>
-                <a href="#"> Career</a>
+                <a href="career">Career</a>
               </li>
               <li>
-                <a href="#"> Leadership</a>
+                <a href="leadership"> Leadership</a>
               </li>
               <li>
-                <a href="#"> FAQ's</a>
+                <a href="faqs"> FAQ's</a>
               </li>
               <li>
-                <a href="#"> Appointments</a>
+                <a href="appointment"> Appointments</a>
               </li>
               <li>
-                <a href="#"> Donners</a>
+                <a href="donners"> Donners</a>
               </li>
             </ul>
 
             <ul className="list-none flex flex-col gap-3 items-start ">
               <li>
-                <a href="#"> Become Volunteer</a>
+                <a href="volunteer"> Become Volunteer</a>
               </li>
               <li>
-                <a href="#"> Donation History</a>
+                <a href="donationhistory"> Donation History</a>
               </li>
               <li>
-                <a href="#"> Donation Failed</a>
+                <a href="donationfailed"> Donation Failed</a>
               </li>
               <li>
-                <a href="#"> 404</a>
+                <a href="404"> 404</a>
               </li>
               <li>
-                <a href="#"> Coming Soon</a>
+                <a href="comingsoon"> Coming Soon</a>
               </li>
               <li>
                 <a href="#"> Medical Facilities </a>

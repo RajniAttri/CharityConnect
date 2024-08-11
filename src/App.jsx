@@ -7,12 +7,15 @@ import CauseDetails from "./pages/causes/CauseDetails";
 import Causes from "./pages/causes/Causes";
 import DonatePage from "./pages/causes/DonatePage";
 import Home from "./pages/home/Home";
+import About from "./pages/about/About";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        
         <Route path="/causes" element={<Causes />} />
         <Route path="/causes/:id" element={<CauseDetails />} />
         <Route path="/donate" element={<DonatePage />} />
