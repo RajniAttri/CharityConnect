@@ -7,24 +7,13 @@ import Footer from "../../components/layout/Footer";
 import Header from "../../components/layout/Header";
 import Hero1 from "../../components/layout/Hero1";
 import AboutSection from "./components/AboutSection";
-import View from "./components/view";
-
-//import image4 from "/images/Rectangle 5.png";
-
-//{/**import image7 from "../../assets/images/Rectangle 9.png";
-//import image8 from "../../assets/images/Rectangle 10.png";
-//import image9 from "../../assets/images/Rectangle 11.png";
-//import image11 from "../../assets/images/baby.jpg"; */}
+import View from "./components/View";
 
 const page = () => {
   return (
     <div className="">
-      {/**header */}
       <Header />
 
-      {/* About us*/}
-
-      {/**hero1 */}
       <Hero1 title="About Us" text="Home" span="About Us" />
 
       <AboutSection />
