@@ -16,7 +16,7 @@ function HelpCard(props) {
       <Button
         type="secondary-button"
         text="Read More"
-        // icon={<i class="fa fa-angle-right"></i>}
+        // icon={<i className="fa fa-angle-right"></i>}
       ></Button>
       {/* <button className="secondary-button">Read More</button> */}
     </div>
