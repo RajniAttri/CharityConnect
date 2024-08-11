@@ -1,31 +1,23 @@
-import React from 'react'
-import Header from '../../components/layout/Header'
-import Footer from '../../components/layout/Footer'
-import Hero1 from '../../components/layout/Hero1'
-import Pagination from '../../components/Pagination'
-import DonnersSection from './components/DonnersSection'
+import React from "react";
+import Footer from "../../components/layout/Footer";
+import Header from "../../components/layout/Header";
+import Hero1 from "../../components/layout/Hero1";
+import Pagination from "../../components/Pagination";
+import DonnersSection from "./components/DonnersSection";
 
 const Donners = () => {
   return (
     <div>
+      <Header />
 
-        <Header/>
+      <Hero1 title="Donners" text="Home" span="Donners" />
 
-        <Hero1
-        title="Donners"
-        text = "Home"
-        span ="Donners"
-        
-        />
+      <DonnersSection />
 
-        <DonnersSection/>
-
-
-        <Pagination/>
-        <Footer/>
-      
+      <Pagination />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Donners
+export default Donners;
