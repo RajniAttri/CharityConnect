@@ -11,6 +11,7 @@ import Contact from "./pages/contact/Contact";
 import Donners from "./pages/donners/Donners";
 import Home from "./pages/home/Home";
 import Leadership from "./pages/leadership/Leadership";
+import Faqs from "./pages/faqs/Faqs";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/leadership" element={<Leadership />} />
         <Route path="/causes" element={<Causes />} />
         <Route path="/career" element={<Career />} />
+        <Route path="/faqs" element={<Faqs />} />
         <Route path="/donners" element={<Donners />} />
         <Route path="/causes/:id" element={<CauseDetails />} />
         <Route path="/donate" element={<DonatePage />} />
