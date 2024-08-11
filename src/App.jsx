@@ -7,6 +7,7 @@ import About from "./pages/about/About";
 import CauseDetails from "./pages/causes/CauseDetails";
 import Causes from "./pages/causes/Causes";
 import DonatePage from "./pages/causes/DonatePage";
+import Contact from "./pages/contact/Contact";
 import Home from "./pages/home/Home";
 
 function App() {
