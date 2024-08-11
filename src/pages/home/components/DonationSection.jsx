@@ -9,11 +9,11 @@ function DonationSection() {
         Causes of Givest
       </p>
       <div className="flex flex-col gap-8 lg:flex-row">
-        <DonationCard></DonationCard>
+        <DonationCard />
         {/* card 2  */}
-        <DonationCard></DonationCard>
+        <DonationCard />
         {/* card 3 */}
-        <DonationCard></DonationCard>
+        <DonationCard />
       </div>
 
       <div className="flex flex-row gap-1 ">
