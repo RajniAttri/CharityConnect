@@ -1,4 +1,6 @@
 import React from "react";
+// import image9 from "../../assets/images/Ellipse 94.png";
+// import image10 from "../../assets/images/images 1.png";
 
 import "../../assets/styles/style.css";
 import Footer from "../../components/layout/Footer";
