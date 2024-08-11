@@ -50,6 +50,11 @@ const page = () => {
         </div>
       </section>
 
+      <div className="flex flex-row gap-1 justify-center pt-4 ">
+        <div className="w-3 h-3 rounded-lg bg-[#9483F1]"></div>
+        <div className="w-14 h-3 rounded-lg bg-primary-color"></div>
+        <div className="w-3 h-3 rounded-lg bg-[#9483F1]"></div>
+      </div>
       {/* rating section */}
       <section className="mb-12">
         <div className="flex justify-between pt-28 px-28 pr-28">
@@ -65,12 +70,6 @@ const page = () => {
             <h1 className="font-bold text-5xl text-center">24k</h1>
             <p className="text-2xl pt-3 font-medium">Active Members</p>
           </div>
-        </div>
-
-        <div className="flex flex-row gap-1 justify-center pt-4 ">
-          <div className="w-3 h-3 rounded-lg bg-[#9483F1]"></div>
-          <div className="w-14 h-3 rounded-lg bg-primary-color"></div>
-          <div className="w-3 h-3 rounded-lg bg-[#9483F1]"></div>
         </div>
       </section>
 
