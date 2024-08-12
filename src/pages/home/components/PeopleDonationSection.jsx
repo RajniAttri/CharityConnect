@@ -41,11 +41,13 @@ function PeopleDonationSection() {
           </div>
         </div>
         <div className="flex flex-col md:flex-row gap-6">
-          <Button
-            type="primary-button"
-            text="All causes"
-            icon={<i className="fa fa-angle-right"></i>}
-          ></Button>
+        <Button
+              className="w-full"
+              type="primary-link"
+              text="All Causes"
+              icon={<i className="fa fa-angle-right"></i>}
+              href={`/causes`}
+            ></Button>
           <Button
             type="secondary-button"
             text="Join Event"
