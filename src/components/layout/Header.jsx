@@ -23,6 +23,10 @@ function Header(props) {
       to: "/causes",
     },
     {
+      text: "Donate",
+      to: "/donate",
+    },
+    {
       text: "Blog",
       to: "/blog",
     },

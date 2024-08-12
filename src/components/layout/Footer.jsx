@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "../../assets/images/logo.png";
 import image3 from "../../assets/images/Rectangle 13.png";
 import image4 from "../../assets/images/Rectangle 14.png";
 import image5 from "../../assets/images/Rectangle 15.png";
-import image6 from "../../assets/images/Rectangle 16.png";
 import image1 from "../../assets/images/Rectangle 2.png";
 import image2 from "../../assets/images/Rectangle 5.png";
+import image6 from "../../assets/images/Rectangle16.png";
 
 function Footer() {
   return (
@@ -19,60 +20,65 @@ function Footer() {
           </p>
         </div>
 
-        <div className="flex flex-col gap-4 w-1/3 md:w-full">
-          <h3>Gallery</h3>
-          <div className=" flex flex-wrap gap-2">
-            <img src={image1} alt="" className="w-[8rem] " />
-            <img src={image2} alt="" className="w-[8rem] " />
-            <img src={image3} alt="" className="w-[8rem]" />
-            <img src={image4} alt="" className="w-[8rem] " />
-            <img src={image5} alt="" className="w-[8rem] " />
-            <img src={image6} alt="" className="w-[8rem] " />
+        <div className=" w-1/3 md:w-full">
+          <h3 className="mb-6">Gallery</h3>
+          <div className="flex flex-col justify-between">
+            <div className=" flex ">
+              <img src={image1} alt="" className="w-20 h-20 " />
+              <img src={image2} alt="" className="w-20  h-20 mx-3" />
+              <img src={image3} alt="" className="w-20 h-20  mx-1" />
+            </div>
+
+            <div className=" flex pt-3">
+              <img src={image4} alt="" className="w-20 h-20" />
+              <img src={image5} alt="" className="w-20 h-20 mx-3" />
+              <img src={image6} alt="" className="w-20 h-20  mx-1" />
+            </div>
           </div>
         </div>
 
-        <div className=" w-1/3 md:w-full flex flex-col gap-6">
+        <div className="w-1/3 md:w-full flex flex-col gap-6">
           <h3>Quick Links</h3>
           <div className="flex flex-row gap-6  text-sm ">
             <ul className=" list-none flex flex-col gap-3 items-start ">
               <li>
-                <a href="#"> About Us</a>
+                <Link to="/about">About Us</Link>
               </li>
               <li>
-                <a href="#"> Career</a>
+                <Link to="/career">Career</Link>
               </li>
               <li>
-                <a href="#"> Leadership</a>
+                <Link to="/leadership">Leadership</Link>
               </li>
               <li>
-                <a href="#"> FAQ's</a>
+                <Link to="/faqs">FAQ's</Link>
               </li>
               <li>
-                <a href="#"> Appointments</a>
+                <Link to="/appointment">Appointments</Link>
               </li>
               <li>
-                <a href="#"> Donners</a>
+                <Link to="/donners">Donners</Link>
               </li>
             </ul>
 
             <ul className="list-none flex flex-col gap-3 items-start ">
               <li>
-                <a href="#"> Become Volunteer</a>
+                <Link to="/volunteer"> Become Volunteer</Link>
               </li>
               <li>
-                <a href="#"> Donation History</a>
+                <Link to="/donationhistory"> Donation History</Link>
               </li>
               <li>
-                <a href="#"> Donation Failed</a>
+                <Link to="/donationfailed"> Donation Failed</Link>
               </li>
               <li>
-                <a href="#"> 404</a>
+                <Link to="/404"> 404</Link>
               </li>
               <li>
-                <a href="#"> Coming Soon</a>
+                <Link to="/comingsoon"> Coming Soon</Link>
               </li>
               <li>
-                <a href="#"> Medical Facilities </a>
+                <Link to="/#"> Medical Facilities </Link>
               </li>
             </ul>
           </div>
