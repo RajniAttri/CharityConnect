@@ -13,6 +13,7 @@ function DonationSection() {
       {donations.slice(0, 3).map((donation, index) => (
   <DonationCard key={donation.id} {...donation} />
 ))}
+</div>
 
       <div className="flex flex-row gap-1 ">
         <div className="w-4 h-4 rounded-lg bg-[#9483F1]"></div>
