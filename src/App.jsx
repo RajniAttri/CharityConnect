@@ -12,6 +12,8 @@ import Donners from "./pages/donners/Donners";
 import Home from "./pages/home/Home";
 import Leadership from "./pages/leadership/Leadership";
 import Faqs from "./pages/faqs/Faqs";
+import Blog from "./pages/Blog/Blog";
+import BlogDetails from "./pages/Blog/BlogDetails";
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
         <Route path="/donners" element={<Donners />} />
         <Route path="/causes/:id" element={<CauseDetails />} />
         <Route path="/donate" element={<DonatePage />} />
+        <Route path="/blog" element={<Blog/>}/>
+        <Route path="/blog/:id" element={<BlogDetails/>}/>
       </Routes>
     </BrowserRouter>
   );

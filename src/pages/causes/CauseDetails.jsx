@@ -86,23 +86,23 @@ function CauseDetails() {
 
               <div className="flex flex-col items-center gap-6 w-full">
                 <div className="flex flex-row justify-between ">
-                  <div className="border border-primary-color py-2 px-8 h-fit">
+                  <div className="border border-primary-color py-2 px-6 h-fit">
                     {" "}
                     $20
                   </div>
-                  <div className="border border-primary-color py-2 px-8 h-fit">
+                  <div className="border border-primary-color py-2 px-6 h-fit">
                     {" "}
                     $50
                   </div>
-                  <div className="border border-primary-color py-2 px-8 h-fit">
+                  <div className="border border-primary-color py-2 px-6 h-fit">
                     {" "}
                     $200
                   </div>
-                  <div className="border border-primary-color py-2 px-8 h-fit">
+                  <div className="border border-primary-color py-2 px-6 h-fit">
                     {" "}
                     $200
                   </div>
-                  <div className="border border-primary-color  py-2 px-8 h-fit">
+                  <div className="border border-primary-color  py-2 px-6 h-fit">
                     {" "}
                     Custom
                   </div>
