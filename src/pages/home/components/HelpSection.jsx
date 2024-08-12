@@ -1,7 +1,7 @@
 import React from "react";
-import icon from "../../../assets/images/icon.png";
-import icon2 from "../../../assets/images/icon2.png";
-import icon3 from "../../../assets/images/icon3.png";
+import icon from "/assets/images/Icon.png";
+import icon2 from "/assets/images/Icon2.png";
+import icon3 from "/assets/images/Icon3.png";
 import HelpCard from "./HelpCard";
 
 function HelpSection() {

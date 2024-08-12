@@ -10,17 +10,17 @@ function DonationSection() {
       </p>
       <div className="flex flex-col gap-8 lg:flex-row">
      
-      {donations.slice(0, 3).map((donation, index) => (
-  <DonationCard key={donation.id} {...donation} />
-))}
-
+            {donations.slice(0, 3).map((donation, index) => (
+        <DonationCard key={donation.id} {...donation} />
+              ))}
+      </div>
       <div className="flex flex-row gap-1 ">
         <div className="w-4 h-4 rounded-lg bg-[#9483F1]"></div>
         <div className="w-16 h-4 rounded-lg bg-primary-color"></div>
         <div className="w-4 h-4 rounded-lg bg-[#9483F1]"></div>
       </div>
     </section>
-  );
+  )
 }
 
 export default DonationSection;

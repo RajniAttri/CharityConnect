@@ -1,5 +1,5 @@
 import React from "react";
-import image23 from "../../assets/images/map1.jpg";
+import image23 from "/assets/images/map1.jpg";
 import Footer from "../../components/layout/Footer";
 import Header from "../../components/layout/Header";
 import Hero1 from "../../components/layout/Hero1";

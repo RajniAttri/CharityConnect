@@ -2,7 +2,7 @@ import React from "react";
 
 import { Link, useLocation } from "react-router-dom";
 
-import Logo from "../../assets/images/logo.png";
+import Logo from "/assets/images/logo.png";
 import Button from "../Button";
 
 function Header(props) {

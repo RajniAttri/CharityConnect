@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import Button from "../../../src/components/Button";
-import image from "../../assets/images/Rectangle 2.png";
+import image from "/assets/images/Rectangle 2.png";
 import Footer from "../../components/layout/Footer";
 import GeneralHero from "../../components/layout/GeneralHero";
 import Header from "../../components/layout/Header";

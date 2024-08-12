@@ -1,5 +1,5 @@
 import React from 'react'
-import image10 from "../../../assets/images/image1.png";
+import image10 from "/assets/images/Image1.png";
 
 
 function EventCard(props) {
