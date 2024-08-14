@@ -12,6 +12,7 @@ import Donners from "./pages/donners/Donners";
 import Home from "./pages/home/Home";
 import Leadership from "./pages/leadership/Leadership";
 import Faqs from "./pages/faqs/Faqs";
+import CareerDetails from "./pages/careerdetails/CareerDetails";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/donners" element={<Donners />} />
         <Route path="/causes/:id" element={<CauseDetails />} />
         <Route path="/donate" element={<DonatePage />} />
+        <Route path="/careerdetails" element={<CareerDetails />} />
       </Routes>
     </BrowserRouter>
   );
