@@ -12,7 +12,7 @@ import Volunteer from "./pages/volunteer/components/Volunteer";
 import ApplyCareer from "./pages/applycareer/components/ApplyCareer";
 import Leadership from "./pages/leadership/components/Leadership";
 import Faqs from "./pages/faqs/components/Faqs";
-import Appointment from "./pages/appointment/components/Appointment";
+import Appointment from "./pages/appointment/Appointment";
 import Donners from "./pages/donners/components/Donners";
 import DonationHistory from "./pages/donationhistory/components/DonationHistory";
 import DonationFailed from "./pages/donationfailed/components/DonationFailed";

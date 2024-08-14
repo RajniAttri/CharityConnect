@@ -1,8 +1,8 @@
 import React from 'react'
-import AppointmentSection from './AppointmentSection'
-import Header from '../../../components/layout/Header'
-import Footer from '../../../components/layout/Footer'
-import Hero1 from '../../../components/layout/Hero1'
+import AppointmentSection from './components/AppointmentSection'
+import Header from '../../components/layout/Header'
+import Footer from '../../components/layout/Footer'
+import Hero1 from '../../components/layout/Hero1'
 
 
 
