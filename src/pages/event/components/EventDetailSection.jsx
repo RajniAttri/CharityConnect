@@ -90,16 +90,16 @@ const EventDetailSection = () => {
 
             <div className='flex mt-5 gap-52'>
             <div>
-            <i className="fa fa-calendar text-primary-color fa-2x "></i>
-            <p className='text-xl'>15 Feb 2024</p>
+            <i className="fa fa-calendar text-primary-color fa-2x flex justify-center items-center"></i>
+            <p className='text-xl mt-3'>15 Feb 2024</p>
             </div>
             <div>
-            <i className="fa fa-clock-o text-primary-color fa-2x"></i>
-            <p className='text-xl'>10:00AM - 04:00PM</p>
+            <i className="fa fa-clock-o text-primary-color fa-2x flex justify-center items-center"></i>
+            <p className='text-xl mt-3'>10:00AM - 04:00PM</p>
             </div>
             <div>
-            <i className="fa fa-map-marker text-primary-color  fa-2x" ></i>
-            <p className='text-xl'>Mitchell, 57301 USA</p>
+            <i className="fa fa-map-marker text-primary-color  fa-2x flex justify-center items-center" ></i>
+            <p className='text-xl mt-3'>Mitchell, 57301 USA</p>
             </div>
 
             </div>
