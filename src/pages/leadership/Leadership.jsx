@@ -3,7 +3,7 @@ import Footer from "../../components/layout/Footer";
 import Header from "../../components/layout/Header";
 import Hero1 from "../../components/layout/Hero1";
 import Pagination from "../../components/Pagination";
-import LeadershipSection from "./components/LeadershipSection";
+import LeadershipSection from "../leadership/components/LeadershipSection";
 
 const Leadership = () => {
   return (
