@@ -149,6 +149,16 @@ const EventDetailSection = () => {
                  veniam voluptatem saepe, odio vel in?</p>
             </div>
 
+            <div className='flex gap-8 mt-5'>
+              <Button
+              type="primary-button"
+              text="Jion  Now"
+              icon={<i className="fa fa-angle-right"></i>}
+              />
+
+              <button className='secondary-button'>0123456789083</button>
+            </div>
+
             </div>    
 
       
