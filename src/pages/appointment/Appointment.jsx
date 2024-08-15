@@ -4,23 +4,15 @@ import Header from '../../components/layout/Header'
 import Footer from '../../components/layout/Footer'
 import Hero1 from '../../components/layout/Hero1'
 
-
-
 const Appointment = () => {
   return (
     <div>
         <Header/>
-
-
        <Hero1
-       
        title ="Appointments"
        text="Home"
-       span ="Appointments"
-       
-       />
-
-        
+       span ="Appointments"       
+       />        
         <AppointmentSection
         text =" Apply Get a Consultation"
         info="Information"
@@ -29,10 +21,8 @@ const Appointment = () => {
         number ="Phone number"
         date ="Date"
         department = "Department"
-        Email="Email Address"
-        
-        
-        />
+        Email="Email Address"      
+         />
         <Footer/>
       
     </div>
