@@ -1,7 +1,7 @@
 import React from "react";
-import image9 from "../../../assets/images/Ellipse 94.png";
-import image8 from "../../../assets/images/Rectangle 10.png";
-import image7 from "../../../assets/images/Rectangle 9.png";
+import image9 from "/assets/images/Ellipse 94.png";
+import image8 from "/assets/images/Rectangle 10.png";
+import image7 from "/assets/images/Rectangle 9.png";
 import Button from "../../../components/Button";
 
 function PeopleDonationSection() {
