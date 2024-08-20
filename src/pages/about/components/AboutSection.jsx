@@ -1,5 +1,5 @@
 import React from "react";
-import image11 from "../../../assets/images/baby.jpg";
+import image11 from "/assets/images/baby.jpg";
 
 function AboutSection() {
   return (
