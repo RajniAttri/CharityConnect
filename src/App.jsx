@@ -15,6 +15,7 @@ import Faqs from "./pages/faqs/Faqs";
 import CareerDetails from "./pages/careerdetails/CareerDetails";
 import Blog from "./pages/Blog/Blog";
 import BlogDetails from "./pages/Blog/BlogDetails";
+import Appointment from "./pages/appointment/Appointment";
 import Volunteer from "./pages/volunteer/Volunteer"
 import Event from "./pages/event/Event";
 import EventDetails from "./pages/event/EventDetails";
@@ -37,6 +38,7 @@ function App() {
 
         <Route path="/blog" element={<Blog/>}/>
         <Route path="/blog/:id" element={<BlogDetails/>}/>
+        <Route path="/appointment" element={<Appointment/>}/>
         <Route path="/volunteer" element={<Volunteer/>}/>
 
         <Route path="/careerdetails" element={<CareerDetails />} />
