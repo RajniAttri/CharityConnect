@@ -1,5 +1,5 @@
 import React from "react";
-import image1 from "../../assets/images/Rectangle 2.png";
+import image1 from "/assets/images/Rectangle 2.png";
 import GeneralHero from "../../components/layout/GeneralHero";
 import Header from "../../components/layout/Header";
 
