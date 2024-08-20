@@ -16,7 +16,7 @@ function Button({ icon, text, type, href, className, ...props }) {
       {text}
       {icon}
     </Link>
-  ) : (
+   ): (
     <button className={`${type} ${className}`} {...props}>
       {text}
       {icon}
