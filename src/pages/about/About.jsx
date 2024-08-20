@@ -1,8 +1,8 @@
 import React from "react";
-import image14 from "../../assets/images/Ellipse 94.png";
-import image10 from "../../assets/images/man.jpg";
-import image13 from "../../assets/images/muslim.jpg";
-import image12 from "../../assets/images/Rayon.jpg";
+import image14 from "/assets/images/Ellipse 94.png";
+import image10 from "/assets/images/man.jpg";
+import image13 from "/assets/images/muslim.jpg";
+import image12 from "/assets/images/Rayon.jpg";
 import Footer from "../../components/layout/Footer";
 import Header from "../../components/layout/Header";
 import Hero1 from "../../components/layout/Hero1";

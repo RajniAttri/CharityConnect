@@ -1,6 +1,5 @@
 import React from 'react'
-import image10 from "../../../assets/images/Image1.png";
-
+import image10 from "/assets/images/Image1.png";
 
 function EventCard(props) {
   const title = props.title;
@@ -9,7 +8,6 @@ function EventCard(props) {
   const end_date = props.end_date;
   const end_time = props.end_time;
   const event_location = props.event_location;
-  // console.log(props);
 
   return (
     <div className="flex flex-row gap-6 shadow-lg p-4">

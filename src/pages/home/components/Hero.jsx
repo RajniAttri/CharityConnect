@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "../../../assets/images/hero-image.png";
+import heroImage from "/assets/images/hero-image.png";
 import Button from "../../../components/Button";
 function Hero() {
   return (
@@ -10,14 +10,17 @@ function Hero() {
           <span className=" text-primary-color"> Change </span>The World.
         </p>
         <div className="flex gap-6">
+        <Button
+              className="w-full"
+              type="primary-link"
+              text="All Causes"
+              icon={<i className="fa fa-angle-right"></i>}
+              href={`/causes`}
+            ></Button>
           <Button
-            type="primary-button"
-            text="All causes"
-            icon={<i className="fa fa-angle-right"></i>}
-          ></Button>
-          <Button
-            type="secondary-button"
+            type="secondary-link"
             text="Donate Now"
+            href={`/donate`}
             icon={<i className="fa fa-angle-right"></i>}
           ></Button>
         </div>

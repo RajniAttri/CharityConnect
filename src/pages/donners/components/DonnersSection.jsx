@@ -1,14 +1,14 @@
 import React from "react";
-import image10 from "../../../assets/images/man.jpg";
-import image13 from "../../../assets/images/muslim.jpg";
-import image12 from "../../../assets/images/Rayon.jpg";
-import image17 from "../../../assets/images/Rectangle17.jpg";
-import image18 from "../../../assets/images/Rectangle18.jpg";
-import image19 from "../../../assets/images/Rectangle19.jpg";
-import image20 from "../../../assets/images/Rectangle20.jpg";
-import image21 from "../../../assets/images/Rectangle21.jpg";
-import image22 from "../../../assets/images/Rectangle22.jpg";
-import image23 from "../../../assets/images/Rectangle23.jpg";
+import image10 from "/assets/images/man.jpg";
+import image13 from "/assets/images/muslim.jpg";
+import image12 from "/assets/images/Rayon.jpg";
+import image17 from "/assets/images/Rectangle17.jpg";
+import image18 from "/assets/images/Rectangle18.jpg";
+import image19 from "/assets/images/Rectangle19.jpg";
+import image20 from "/assets/images/Rectangle20.jpg";
+import image21 from "/assets/images/Rectangle21.jpg";
+import image22 from "/assets/images/Rectangle22.jpg";
+import image23 from "/assets/images/Rectangle23.jpg";
 
 const DonnersSection = () => {
   return (
