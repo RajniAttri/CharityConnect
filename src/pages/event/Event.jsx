@@ -3,19 +3,19 @@ import Header from '../../components/layout/Header'
 import GeneralHero from '../../components/layout/GeneralHero'
 import Footer from '../../components/layout/Footer'
 import EventList from './components/EventList'
-import image from '../../assets/images/Rectangle16.png'
-import image26 from '../../assets/images/Rectangle 6.png'
+import image from '/assets/images/Rectangle16.png'
+import image26 from '/assets/images/Rectangle 6.png'
 
-import image17 from '../../assets/images/Rectangle17.jpg'
-import image18 from "../../assets/images/Rectangle18.jpg";
-import image19 from "../../assets/images/Rectangle19.jpg";
-import image20 from "../../assets/images/Rectangle20.jpg";
+import image17 from '/assets/images/Rectangle17.jpg'
+import image18 from "/assets/images/Rectangle18.jpg";
+import image19 from "/assets/images/Rectangle19.jpg";
+import image20 from "/assets/images/Rectangle20.jpg";
 
-import image13 from "../../assets/images/muslim.jpg";
+import image13 from "/assets/images/muslim.jpg";
 
-import image21 from "../../assets/images/Rectangle21.jpg";
-import image22 from "../../assets/images/Rectangle22.jpg";
-import image23 from "../../assets/images/Rectangle23.jpg";
+import image21 from "/assets/images/Rectangle21.jpg";
+import image22 from "/assets/images/Rectangle22.jpg";
+import image23 from "/assets/images/Rectangle23.jpg";
 import Pagination from '../../components/Pagination'
 import StatisticsSection from '../../components/layout/StatisticsSection'
 import ReviewSection from '../home/components/ReviewSection'

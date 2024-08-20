@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../../components/layout/Header'
 import Footer from '../../components/layout/Footer'
 import EventList from './components/EventList'
-import image from '../../assets/images/Rectangle16.png';
+import image from '/assets/images/Rectangle16.png';
 
 import GeneralHero from '../../components/layout/GeneralHero';
 import EventDetailSection from './components/EventDetailSection';

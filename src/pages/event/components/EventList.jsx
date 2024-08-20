@@ -1,9 +1,13 @@
 import React from "react";
 import Button from "../../../components/Button";
+import EventDetails from "../EventDetails";
 
 
 
 function EventList(props){
+  const event = [
+    { id: 1, name: 'Event 1' },
+  ];
     const image =props.image
     const image1 = props.image1
 
@@ -27,9 +31,13 @@ function EventList(props){
             <p className="pt-5">Mitchell, 57301 United States</p>
             
             <Button
-              type="primary-button"
+              key={event.id}
+              type="primary-link"
               text="Jion Now"
               icon={<i className="fa fa-angle-right"></i>}
+              href={`/event/${event.id}`}
+              
+
             ></Button> 
           </div>
         </div>
@@ -51,15 +59,17 @@ function EventList(props){
             <p className="pt-5">Mitchell, 57301 United States</p>
 
             <Button
-              type="primary-button"
+              key={event.id}
+              type="primary-link"
               text="Jion Now"
               icon={<i className="fa fa-angle-right"></i>}
+              href={`/event/${event.id}`}
             ></Button>
           </div>
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default EventList;

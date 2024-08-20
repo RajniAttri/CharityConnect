@@ -1,11 +1,11 @@
 import React from 'react'
 
-import image3 from '../../../assets/images/Image3.png'
-import image12 from '../../../assets/images/Rectangle 12.png'
+import image3 from '/assets/images/Image3.png'
+import image12 from '/assets/images/Rectangle 12.png'
 import Button from '../../../components/Button'
-import image22 from '../../../assets/images/Rectangle22.jpg'
-import image23 from '../../../assets/images/Rectangle23.jpg'
-import image20 from '../../../assets/images/Rectangle20.jpg'
+import image22 from '/assets/images/Rectangle22.jpg'
+import image23 from '/assets/images/Rectangle23.jpg'
+import image20 from '/assets/images/Rectangle20.jpg'
 
 
 const EventDetailSection = () => {
