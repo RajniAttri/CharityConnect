@@ -1,6 +1,6 @@
 import React from 'react'
 import BlogCard from '../../home/components/BlogCard';
-import image14 from "../../../assets/images/Rectangle 14.png";
+import image14 from "/assets/images/Rectangle 14.png";
 import Pagination from '../../../components/Pagination';
 function BlogList() {
 const blogId=1
