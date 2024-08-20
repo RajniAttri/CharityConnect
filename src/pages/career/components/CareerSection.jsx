@@ -16,9 +16,9 @@ function CareerSection(props) {
 
           <div className="flex justify-center">
             <a
-              href="#"
+              href="/applycareer"
               className=" mt-3 mr-4 bg-white bg-transparent text-primary-color flex flex-row rounded-[.4rem]
-     items-center border-solid border-primary-color border w-28 h-10 px-1"
+              items-center border-solid border-primary-color border w-28 h-10 px-1"
             >
               {applyLink}
               <i className="fa fa-angle-right pr-2 px-2"></i>
