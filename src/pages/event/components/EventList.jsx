@@ -1,19 +1,12 @@
 import React from "react";
 import Button from "../../../components/Button";
-import EventDetails from "../EventDetails";
 
-
-
-function EventList(props){
-  const event = [
-    { id: 1, name: 'Event 1' },
-  ];
-    const image =props.image
-    const image1 = props.image1
+function EventList(props) {
+  const event = [{ id: 1, name: "Event 1" }];
+  const image = props.image;
+  const image1 = props.image1;
 
   return (
-
-    
     <div className="mt-16 flex mb-9">
       <div className="flex mx-28 bg-slate-50 drop-shadow-xl w-[700px] ">
         <div>
@@ -29,16 +22,14 @@ function EventList(props){
 
           <div className="flex justify-between">
             <p className="pt-5">Mitchell, 57301 United States</p>
-            
+
             <Button
               key={event.id}
               type="primary-link"
               text="Jion Now"
               icon={<i className="fa fa-angle-right"></i>}
               href={`/event/${event.id}`}
-              
-
-            ></Button> 
+            ></Button>
           </div>
         </div>
       </div>
