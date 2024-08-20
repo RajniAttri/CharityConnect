@@ -16,6 +16,7 @@ import Blog from "./pages/Blog/Blog";
 import BlogDetails from "./pages/Blog/BlogDetails";
 import Event from "./pages/event/Event";
 import EventDetails from "./pages/event/EventDetails";
+import ApplyCareer from "./pages/applycareer/ApplyCareer";
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
         <Route path="/blog/:id" element={<BlogDetails />} />
         <Route path="/event" element={<Event />} />
         <Route path="/event/:id" element={<EventDetails />} />
+        <Route path="/applycareer" element={<ApplyCareer />} />
         
       
       </Routes>
