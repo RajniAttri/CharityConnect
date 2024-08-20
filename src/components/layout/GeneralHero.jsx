@@ -21,7 +21,7 @@ function GeneralHero(props) {
         <div className=" flex flex-col items-center text-center  justify-center ">
           <h1 className="  text-3xl md:text-5xl   ">{title}</h1>
 
-          <div className="flex flex-row items-center gap-4 text-slate-200 text-2xl">
+          <div className="flex flex-row items-center gap-4 text-slate-200 text-2xl mt-4">
             <p>
               <Link to="/" className="">
                 Home
