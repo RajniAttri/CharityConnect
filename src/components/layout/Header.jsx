@@ -60,10 +60,12 @@ function Header(props) {
             ))}
           </div>
           <Button
-            type="primary-button"
-            text="Donate Now"
-            icon={<i className="fa fa-angle-right"></i>}
-          ></Button>
+             
+              type="primary-link"
+              text="Donate Now"
+              icon={<i className="fa fa-angle-right"></i>}
+              href={`/donate`}
+            ></Button>
         </nav>
         {children}
       </header>

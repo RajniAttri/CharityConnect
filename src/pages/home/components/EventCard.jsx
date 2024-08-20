@@ -1,7 +1,6 @@
 import React from 'react'
 import image10 from "/assets/images/Image1.png";
 
-
 function EventCard(props) {
   const title = props.title;
   const start_date = props.start_date;
