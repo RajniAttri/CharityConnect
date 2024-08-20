@@ -2,9 +2,11 @@ import React from "react";
 import Button from "../../../components/Button";
 
 function BlogCard(props) {
-  const { image, day, month, category, title, description, author } = props;
+  
+  const { id,image, day, month, category, title, description, author } = props;
   const maxDescriptionLength = 60; // max letters
-  const truncatedDescription =
+  console.log(id);
+    const truncatedDescription =
     description.length > maxDescriptionLength
       ? `${description.substring(0, maxDescriptionLength)}...`
       : description;
@@ -41,10 +43,11 @@ function BlogCard(props) {
           <p>{author}</p>
         </div>
         <Button
-          text="View Details"
-          type="secondary-button"
-          icon={<i className="fa fa-angle-right"></i>}
-        ></Button>
+            type="secondary-link"
+            text="Readmore"
+            icon={<i className="fa fa-angle-right"></i>}
+            href={`/blog/${id}`}
+          ></Button>
       </div>
     </section>
   );

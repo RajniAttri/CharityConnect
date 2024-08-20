@@ -1,7 +1,7 @@
 import React from "react";
 
-import image8 from "../../assets/images/Rectangle 10.png";
-import image7 from "../../assets/images/Rectangle 9.png";
+// import image8 from "/assets/images/Rectangle 10.png";
+// import image7 from "/assets/images/Rectangle 9.png";
 
 import "../../assets/styles/style.css";
 import Footer from "../../components/layout/Footer";
