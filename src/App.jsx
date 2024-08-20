@@ -14,6 +14,10 @@ import Leadership from "./pages/leadership/Leadership";
 import Faqs from "./pages/faqs/Faqs";
 import Blog from "./pages/Blog/Blog";
 import BlogDetails from "./pages/Blog/BlogDetails";
+import Event from "./pages/event/Event";
+import EventDetails from "./pages/event/EventDetails";
+import ApplyCareer from "./pages/applycareer/ApplyCareer";
+
 
 function App() {
   return (
@@ -29,8 +33,13 @@ function App() {
         <Route path="/donners" element={<Donners />} />
         <Route path="/causes/:id" element={<CauseDetails />} />
         <Route path="/donate" element={<DonatePage />} />
-        <Route path="/blog" element={<Blog/>}/>
-        <Route path="/blog/:id" element={<BlogDetails/>}/>
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:id" element={<BlogDetails />} />
+        <Route path="/event" element={<Event />} />
+        <Route path="/event/:id" element={<EventDetails />} />
+        <Route path="/applycareer" element={<ApplyCareer />} />
+        
+      
       </Routes>
     </BrowserRouter>
   );
