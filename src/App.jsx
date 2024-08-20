@@ -14,6 +14,7 @@ import Leadership from "./pages/leadership/Leadership";
 import Faqs from "./pages/faqs/Faqs";
 import Blog from "./pages/Blog/Blog";
 import BlogDetails from "./pages/Blog/BlogDetails";
+import Appointment from "./pages/appointment/Appointment";
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
         <Route path="/donate" element={<DonatePage />} />
         <Route path="/blog" element={<Blog/>}/>
         <Route path="/blog/:id" element={<BlogDetails/>}/>
+        <Route path="/appointment" element={<Appointment/>}/>
+
       </Routes>
     </BrowserRouter>
   );
