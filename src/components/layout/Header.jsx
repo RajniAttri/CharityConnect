@@ -2,7 +2,7 @@ import React from "react";
 
 import { Link, useLocation } from "react-router-dom";
 
-import Logo from "../../assets/images/logo.png";
+import Logo from "/assets/images/logo.png";
 import Button from "../Button";
 
 function Header(props) {
@@ -60,10 +60,12 @@ function Header(props) {
             ))}
           </div>
           <Button
-            type="primary-button"
-            text="Donate Now"
-            icon={<i className="fa fa-angle-right"></i>}
-          ></Button>
+             
+              type="primary-link"
+              text="Donate Now"
+              icon={<i className="fa fa-angle-right"></i>}
+              href={`/donate`}
+            ></Button>
         </nav>
         {children}
       </header>

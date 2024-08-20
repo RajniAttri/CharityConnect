@@ -1,5 +1,5 @@
 import React from "react";
-import image9 from "../../../assets/images/Ellipse 94.png";
+import image9 from "/assets/images/Ellipse 94.png";
 import ReviewCard from "./ReviewCard";
 
 function ReviewSection() {

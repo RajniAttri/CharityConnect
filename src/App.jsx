@@ -15,6 +15,8 @@ import Faqs from "./pages/faqs/Faqs";
 import EventList from "./pages/event/components/EventList";
 import Event from "./pages/event/Event";
 import EventDetails from "./pages/event/EventDetails";
+import Blog from "./pages/Blog/Blog";
+import BlogDetails from "./pages/Blog/BlogDetails";
 
 function App() {
   return (
@@ -32,7 +34,8 @@ function App() {
         <Route path="/donate" element={<DonatePage />} />
         <Route path="/event" element={<Event />} />
         <Route path="/event/:id" element={<EventDetails/>} />
-        
+        <Route path="/blog" element={<Blog/>}/>
+        <Route path="/blog/:id" element={<BlogDetails/>}/>
       </Routes>
     </BrowserRouter>
   );

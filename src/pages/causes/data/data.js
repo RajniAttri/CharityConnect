@@ -1,4 +1,4 @@
-import image from "../../../assets/images/Rectangle 5.png";
+import image from "/assets/images/Rectangle 5.png";
 
 export const donations = [
   {

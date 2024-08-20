@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/images/logo.png";
-import image3 from "../../assets/images/Rectangle 13.png";
-import image4 from "../../assets/images/Rectangle 14.png";
-import image5 from "../../assets/images/Rectangle 15.png";
-import image1 from "../../assets/images/Rectangle 2.png";
-import image2 from "../../assets/images/Rectangle 5.png";
-import image6 from "../../assets/images/Rectangle16.png";
+import Logo from "/assets/images/logo.png";
+import image3 from "/assets/images/Rectangle 13.png";
+import image4 from "/assets/images/Rectangle 14.png";
+import image5 from "/assets/images/Rectangle 15.png";
+import image1 from "/assets/images/Rectangle 2.png";
+import image2 from "/assets/images/Rectangle 5.png";
+import image6 from "/assets/images/Rectangle16.png";
 
 function Footer() {
   return (
