@@ -47,6 +47,7 @@ function App() {
         <Route path="/event" element={<Event />} />
         <Route path="/event/:id" element={<EventDetails />} />
         <Route path="/applycareer" element={<ApplyCareer />} />
+<Route path="*" element={<p>Not found</p>} />
       </Routes>
     </BrowserRouter>
   );
