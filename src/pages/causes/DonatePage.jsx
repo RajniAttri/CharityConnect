@@ -1,5 +1,5 @@
 import React from "react";
-import image from "/assets/images/Rectangle 2.png";
+import image from "/assets/images/Rectangle_2.png";
 import Footer from "../../components/layout/Footer";
 import GeneralHero from "../../components/layout/GeneralHero";
 import Header from "../../components/layout/Header";

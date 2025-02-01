@@ -3,7 +3,7 @@ import Header from '../../components/layout/Header'
 import Footer from '../../components/layout/Footer'
 import GeneralHero from '../../components/layout/GeneralHero'
 import career from '../career/Career'
-import image from "../../assets/images/Rectangle 2.png";
+const image = "/assets/images/Rectangle_2.png";
 import CareerDetailSection from './components/CareerDetailSection'
 
 const CareerDetails = () => {

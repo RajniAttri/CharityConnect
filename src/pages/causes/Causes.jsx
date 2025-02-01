@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/layout/Header";
 import GeneralHero from "../../components/layout/GeneralHero";
-import image from "/assets/images/Rectangle 2.png";
+import image from "/assets/images/Rectangle_2.png";
 import CausesSection from "./components/CausesSection";
 import Pagination from "../../components/Pagination";
 import StatisticsSection from "../../components/layout/StatisticsSection";
